@@ -1,0 +1,1683 @@
+[
+  {
+    "control_id": "FW-001",
+    "control_name": "Firewall_AllowedPorts",
+    "system": "Palo Alto Networks",
+    "baseline_config": {
+      "allowed_inbound_ports": [
+        22,
+        443,
+        80,
+        3306
+      ],
+      "deny_outbound_ranges": [
+        "10.0.0.0/8",
+        "172.16.0.0/12"
+      ],
+      "logging_enabled": true,
+      "threat_prevention": "high",
+      "encryption_enabled": true
+    },
+    "baseline_timestamp": "2026-01-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "CIS 3.1",
+      "NIST AC-4"
+    ]
+  },
+  {
+    "control_id": "ENC-001",
+    "control_name": "Database_Encryption_At_Rest",
+    "system": "AWS RDS",
+    "baseline_config": {
+      "encryption_enabled": true,
+      "encryption_algorithm": "AES-256",
+      "key_rotation_days": 90,
+      "log_encryption": true
+    },
+    "baseline_timestamp": "2026-01-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "GDPR 32",
+      "NIST SC-7",
+      "PCI-DSS 3.4"
+    ]
+  },
+  {
+    "control_id": "LOG-001",
+    "control_name": "CloudTrail_Logging",
+    "system": "AWS",
+    "baseline_config": {
+      "cloudtrail_enabled": true,
+      "multi_region": true,
+      "log_file_validation": true,
+      "s3_bucket_logging": true,
+      "s3_lifecycle_enabled": true
+    },
+    "baseline_timestamp": "2026-01-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST AU-2",
+      "CIS 2.1"
+    ]
+  },
+  {
+    "control_id": "MFA-001",
+    "control_name": "MFA_Enforcement_Admin",
+    "system": "Azure AD",
+    "baseline_config": {
+      "mfa_enabled": true,
+      "mfa_required_for_admin": true,
+      "mfa_grace_period_days": 0,
+      "conditional_access": true
+    },
+    "baseline_timestamp": "2026-01-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST IA-2",
+      "CIS 5.3"
+    ]
+  },
+  {
+    "control_id": "DLP-001",
+    "control_name": "Data_Loss_Prevention",
+    "system": "Endpoint DLP",
+    "baseline_config": {
+      "dlp_enabled": true,
+      "file_monitoring": true,
+      "email_monitoring": true,
+      "usb_blocking": false,
+      "cloud_sync_monitoring": true
+    },
+    "baseline_timestamp": "2026-01-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "GDPR 25",
+      "ISO 27001 A.13"
+    ]
+  },
+  {
+    "control_id": "CTL-1",
+    "control_name": "Control-1",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-10",
+    "control_name": "Control-10",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-11",
+    "control_name": "Control-11",
+    "system": "Firewall",
+    "control_type": "Firewall",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 4.4 (Firewall Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-12",
+    "control_name": "Control-12",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-13",
+    "control_name": "Control-13",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-14",
+    "control_name": "Control-14",
+    "system": "Data Protection",
+    "control_type": "Data_Protection",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: MP-4 (Media Protection)",
+      "CIS: CIS 3 (Data Protection)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-15",
+    "control_name": "Control-15",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-16",
+    "control_name": "Control-16",
+    "system": "Cloud Security",
+    "control_type": "Cloud_Security",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: CM-2 (Baseline Config)",
+      "CIS: CIS Foundations",
+      "GDPR: Art. 28 (Processors)"
+    ]
+  },
+  {
+    "control_id": "CTL-17",
+    "control_name": "Control-17",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-18",
+    "control_name": "Control-18",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-19",
+    "control_name": "Control-19",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-2",
+    "control_name": "Control-2",
+    "system": "Data Protection",
+    "control_type": "Data_Protection",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: MP-4 (Media Protection)",
+      "CIS: CIS 3 (Data Protection)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-20",
+    "control_name": "Control-20",
+    "system": "Cloud Security",
+    "control_type": "Cloud_Security",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: CM-2 (Baseline Config)",
+      "CIS: CIS Foundations",
+      "GDPR: Art. 28 (Processors)"
+    ]
+  },
+  {
+    "control_id": "CTL-21",
+    "control_name": "Control-21",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-22",
+    "control_name": "Control-22",
+    "system": "Firewall",
+    "control_type": "Firewall",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 4.4 (Firewall Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-23",
+    "control_name": "Control-23",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-24",
+    "control_name": "Control-24",
+    "system": "Cloud Security",
+    "control_type": "Cloud_Security",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: CM-2 (Baseline Config)",
+      "CIS: CIS Foundations",
+      "GDPR: Art. 28 (Processors)"
+    ]
+  },
+  {
+    "control_id": "CTL-25",
+    "control_name": "Control-25",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-26",
+    "control_name": "Control-26",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-27",
+    "control_name": "Control-27",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-28",
+    "control_name": "Control-28",
+    "system": "Firewall",
+    "control_type": "Firewall",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 4.4 (Firewall Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-29",
+    "control_name": "Control-29",
+    "system": "Cloud Security",
+    "control_type": "Cloud_Security",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: CM-2 (Baseline Config)",
+      "CIS: CIS Foundations",
+      "GDPR: Art. 28 (Processors)"
+    ]
+  },
+  {
+    "control_id": "CTL-3",
+    "control_name": "Control-3",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-30",
+    "control_name": "Control-30",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-31",
+    "control_name": "Control-31",
+    "system": "Firewall",
+    "control_type": "Firewall",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 4.4 (Firewall Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-32",
+    "control_name": "Control-32",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-33",
+    "control_name": "Control-33",
+    "system": "Network Segmentation",
+    "control_type": "Network_Segmentation",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 12 (Network Infra)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-34",
+    "control_name": "Control-34",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-35",
+    "control_name": "Control-35",
+    "system": "Encryption",
+    "control_type": "Encryption",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-13 (Crypto Protection)",
+      "CIS: CIS 3.11 (Encrypt Data)",
+      "GDPR: Art. 32 (Security of Processing)"
+    ]
+  },
+  {
+    "control_id": "CTL-36",
+    "control_name": "Control-36",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-37",
+    "control_name": "Control-37",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-38",
+    "control_name": "Control-38",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-39",
+    "control_name": "Control-39",
+    "system": "Network Segmentation",
+    "control_type": "Network_Segmentation",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 12 (Network Infra)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-4",
+    "control_name": "Control-4",
+    "system": "Data Protection",
+    "control_type": "Data_Protection",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: MP-4 (Media Protection)",
+      "CIS: CIS 3 (Data Protection)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-40",
+    "control_name": "Control-40",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-41",
+    "control_name": "Control-41",
+    "system": "Data Protection",
+    "control_type": "Data_Protection",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: MP-4 (Media Protection)",
+      "CIS: CIS 3 (Data Protection)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-42",
+    "control_name": "Control-42",
+    "system": "Firewall",
+    "control_type": "Firewall",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 4.4 (Firewall Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-43",
+    "control_name": "Control-43",
+    "system": "Network Segmentation",
+    "control_type": "Network_Segmentation",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 12 (Network Infra)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-44",
+    "control_name": "Control-44",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-45",
+    "control_name": "Control-45",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-46",
+    "control_name": "Control-46",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-47",
+    "control_name": "Control-47",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-48",
+    "control_name": "Control-48",
+    "system": "Data Protection",
+    "control_type": "Data_Protection",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: MP-4 (Media Protection)",
+      "CIS: CIS 3 (Data Protection)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-49",
+    "control_name": "Control-49",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-5",
+    "control_name": "Control-5",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-50",
+    "control_name": "Control-50",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-51",
+    "control_name": "Control-51",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-52",
+    "control_name": "Control-52",
+    "system": "Firewall",
+    "control_type": "Firewall",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 4.4 (Firewall Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-53",
+    "control_name": "Control-53",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-54",
+    "control_name": "Control-54",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-55",
+    "control_name": "Control-55",
+    "system": "Network Segmentation",
+    "control_type": "Network_Segmentation",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 12 (Network Infra)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-56",
+    "control_name": "Control-56",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-57",
+    "control_name": "Control-57",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-58",
+    "control_name": "Control-58",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-59",
+    "control_name": "Control-59",
+    "system": "Network Segmentation",
+    "control_type": "Network_Segmentation",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 12 (Network Infra)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-6",
+    "control_name": "Control-6",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-60",
+    "control_name": "Control-60",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-61",
+    "control_name": "Control-61",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-62",
+    "control_name": "Control-62",
+    "system": "Firewall",
+    "control_type": "Firewall",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 4.4 (Firewall Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-63",
+    "control_name": "Control-63",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-64",
+    "control_name": "Control-64",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-65",
+    "control_name": "Control-65",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-66",
+    "control_name": "Control-66",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-67",
+    "control_name": "Control-67",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-68",
+    "control_name": "Control-68",
+    "system": "Cloud Security",
+    "control_type": "Cloud_Security",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: CM-2 (Baseline Config)",
+      "CIS: CIS Foundations",
+      "GDPR: Art. 28 (Processors)"
+    ]
+  },
+  {
+    "control_id": "CTL-69",
+    "control_name": "Control-69",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-7",
+    "control_name": "Control-7",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-70",
+    "control_name": "Control-70",
+    "system": "Encryption",
+    "control_type": "Encryption",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-13 (Crypto Protection)",
+      "CIS: CIS 3.11 (Encrypt Data)",
+      "GDPR: Art. 32 (Security of Processing)"
+    ]
+  },
+  {
+    "control_id": "CTL-71",
+    "control_name": "Control-71",
+    "system": "Firewall",
+    "control_type": "Firewall",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 4.4 (Firewall Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-72",
+    "control_name": "Control-72",
+    "system": "Encryption",
+    "control_type": "Encryption",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-13 (Crypto Protection)",
+      "CIS: CIS 3.11 (Encrypt Data)",
+      "GDPR: Art. 32 (Security of Processing)"
+    ]
+  },
+  {
+    "control_id": "CTL-73",
+    "control_name": "Control-73",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-74",
+    "control_name": "Control-74",
+    "system": "Cloud Security",
+    "control_type": "Cloud_Security",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: CM-2 (Baseline Config)",
+      "CIS: CIS Foundations",
+      "GDPR: Art. 28 (Processors)"
+    ]
+  },
+  {
+    "control_id": "CTL-75",
+    "control_name": "Control-75",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-76",
+    "control_name": "Control-76",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-77",
+    "control_name": "Control-77",
+    "system": "Data Protection",
+    "control_type": "Data_Protection",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: MP-4 (Media Protection)",
+      "CIS: CIS 3 (Data Protection)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-78",
+    "control_name": "Control-78",
+    "system": "Network Segmentation",
+    "control_type": "Network_Segmentation",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 12 (Network Infra)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-79",
+    "control_name": "Control-79",
+    "system": "Encryption",
+    "control_type": "Encryption",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-13 (Crypto Protection)",
+      "CIS: CIS 3.11 (Encrypt Data)",
+      "GDPR: Art. 32 (Security of Processing)"
+    ]
+  },
+  {
+    "control_id": "CTL-8",
+    "control_name": "Control-8",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-80",
+    "control_name": "Control-80",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-81",
+    "control_name": "Control-81",
+    "system": "Cloud Security",
+    "control_type": "Cloud_Security",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: CM-2 (Baseline Config)",
+      "CIS: CIS Foundations",
+      "GDPR: Art. 28 (Processors)"
+    ]
+  },
+  {
+    "control_id": "CTL-82",
+    "control_name": "Control-82",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-83",
+    "control_name": "Control-83",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-84",
+    "control_name": "Control-84",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-85",
+    "control_name": "Control-85",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-86",
+    "control_name": "Control-86",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-87",
+    "control_name": "Control-87",
+    "system": "Encryption",
+    "control_type": "Encryption",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-13 (Crypto Protection)",
+      "CIS: CIS 3.11 (Encrypt Data)",
+      "GDPR: Art. 32 (Security of Processing)"
+    ]
+  },
+  {
+    "control_id": "CTL-88",
+    "control_name": "Control-88",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-89",
+    "control_name": "Control-89",
+    "system": "Encryption",
+    "control_type": "Encryption",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-13 (Crypto Protection)",
+      "CIS: CIS 3.11 (Encrypt Data)",
+      "GDPR: Art. 32 (Security of Processing)"
+    ]
+  },
+  {
+    "control_id": "CTL-9",
+    "control_name": "Control-9",
+    "system": "Endpoint",
+    "control_type": "Endpoint",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-3 (Malicious Code Protection)",
+      "CIS: CIS 10 (Malware Defense)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-90",
+    "control_name": "Control-90",
+    "system": "Cloud Security",
+    "control_type": "Cloud_Security",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: CM-2 (Baseline Config)",
+      "CIS: CIS Foundations",
+      "GDPR: Art. 28 (Processors)"
+    ]
+  },
+  {
+    "control_id": "CTL-91",
+    "control_name": "Control-91",
+    "system": "Network Segmentation",
+    "control_type": "Network_Segmentation",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 12 (Network Infra)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-92",
+    "control_name": "Control-92",
+    "system": "Logging",
+    "control_type": "Logging",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AU-2 (Audit Events)",
+      "CIS: CIS 8.2 (Audit Log Mgmt)",
+      "GDPR: Art. 30 (Records)"
+    ]
+  },
+  {
+    "control_id": "CTL-93",
+    "control_name": "Control-93",
+    "system": "DLP",
+    "control_type": "DLP",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SI-12 (Info Mgmt)",
+      "CIS: CIS 3.13 (DLP)",
+      "GDPR: Art. 25 (Data Protection by Design)"
+    ]
+  },
+  {
+    "control_id": "CTL-94",
+    "control_name": "Control-94",
+    "system": "Network Segmentation",
+    "control_type": "Network_Segmentation",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: SC-7 (Boundary Protection)",
+      "CIS: CIS 12 (Network Infra)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-95",
+    "control_name": "Control-95",
+    "system": "Cloud Security",
+    "control_type": "Cloud_Security",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: CM-2 (Baseline Config)",
+      "CIS: CIS Foundations",
+      "GDPR: Art. 28 (Processors)"
+    ]
+  },
+  {
+    "control_id": "CTL-96",
+    "control_name": "Control-96",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": false
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-97",
+    "control_name": "Control-97",
+    "system": "Encryption",
+    "control_type": "Encryption",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: SC-13 (Crypto Protection)",
+      "CIS: CIS 3.11 (Encrypt Data)",
+      "GDPR: Art. 32 (Security of Processing)"
+    ]
+  },
+  {
+    "control_id": "CTL-98",
+    "control_name": "Control-98",
+    "system": "Access Control",
+    "control_type": "Access_Control",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "high",
+    "compliance_mappings": [
+      "NIST: AC-2 / IA-2 (Account & Auth)",
+      "CIS: CIS 6.5 (MFA)",
+      "GDPR: Art. 32"
+    ]
+  },
+  {
+    "control_id": "CTL-99",
+    "control_name": "Control-99",
+    "system": "Vulnerability",
+    "control_type": "Vulnerability",
+    "baseline_config": {
+      "enabled": true
+    },
+    "baseline_timestamp": "2025-04-01T00:00:00Z",
+    "criticality": "medium",
+    "compliance_mappings": [
+      "NIST: RA-5 (Vuln Scanning)",
+      "CIS: CIS 7 (Vuln Mgmt)",
+      "GDPR: Art. 32"
+    ]
+  }
+]

@@ -1,0 +1,1001 @@
+drift_event_id,is_anomaly,anomaly_type,gt_severity,gt_explanation
+DRF00878,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00801,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00918,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00660,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00628,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00574,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 364 days.
+DRF00550,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-66 — monitoring blind spot.
+DRF00572,True,PROTECTION_DISABLED,High,Endpoint control disabled vs baseline and unresolved.
+DRF00684,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 363 days.
+DRF00949,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 362 days.
+DRF00635,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00847,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00581,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-1 — attack surface increased.
+DRF00560,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-48 — exposure risk.
+DRF00638,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00895,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-65 — monitoring blind spot.
+DRF00659,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00561,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-55 — attack surface increased.
+DRF00718,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-48 — exposure risk.
+DRF00741,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00837,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 356 days.
+DRF00715,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 356 days.
+DRF00709,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00809,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00633,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00661,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 354 days.
+DRF00816,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00727,True,PROTECTION_DISABLED,High,Cloud_Security control disabled vs baseline and unresolved.
+DRF00534,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 352 days.
+DRF00699,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-98 — attack surface increased.
+DRF00605,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00806,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00898,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-48 — attack surface increased.
+DRF00924,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-61 — attack surface increased.
+DRF00862,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00698,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00555,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00587,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00848,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00675,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00773,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00645,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00513,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-21 — exposure risk.
+DRF00526,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00728,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00789,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00763,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00948,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-56 — attack surface increased.
+DRF00761,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00721,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-42 — attack surface increased.
+DRF00977,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00632,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 341 days.
+DRF00600,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00881,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00689,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00649,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-35 — exposure risk.
+DRF00662,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-35 — monitoring blind spot.
+DRF00855,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00759,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00879,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00614,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00615,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 336 days.
+DRF00586,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-53 — attack surface increased.
+DRF00788,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00760,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00640,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 334 days.
+DRF00694,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-67 — exposure risk.
+DRF00891,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00971,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00960,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00663,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-30 — monitoring blind spot.
+DRF00573,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00822,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-84 — attack surface increased.
+DRF00729,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-23 — attack surface increased.
+DRF00946,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00749,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00853,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00838,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00543,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-56 — monitoring blind spot.
+DRF00778,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00720,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00913,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00834,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-2 — exposure risk.
+DRF00963,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00716,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00902,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 317 days.
+DRF00620,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00747,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00784,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00713,True,PROTECTION_DISABLED,High,Endpoint control disabled vs baseline and unresolved.
+DRF00692,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00939,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-92 — monitoring blind spot.
+DRF00870,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00927,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00805,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00935,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00790,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00958,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00642,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00676,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-57 — attack surface increased.
+DRF00643,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00685,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00703,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-1 — exposure risk.
+DRF00820,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00969,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00823,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-43 — attack surface increased.
+DRF00681,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-97 — exposure risk.
+DRF00722,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00854,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00830,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00764,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00514,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-28 — attack surface increased.
+DRF00566,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00708,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-57 — exposure risk.
+DRF00677,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-85 — attack surface increased.
+DRF00931,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00511,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00655,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00917,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00505,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00697,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-78 — exposure risk.
+DRF00723,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-80 — attack surface increased.
+DRF00733,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 296 days.
+DRF00707,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00993,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00814,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00646,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00683,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00617,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00567,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-30 — monitoring blind spot.
+DRF00859,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00690,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-2 — attack surface increased.
+DRF00619,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-42 — monitoring blind spot.
+DRF00531,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00850,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00518,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00880,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-68 — exposure risk.
+DRF00568,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00687,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-12 — attack surface increased.
+DRF00545,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00626,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00979,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-3 — monitoring blind spot.
+DRF00904,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00980,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00783,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00951,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-61 — attack surface increased.
+DRF00865,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00706,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-11 — attack surface increased.
+DRF00930,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 280 days.
+DRF00582,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00885,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 278 days.
+DRF00842,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-82 — monitoring blind spot.
+DRF00651,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00841,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00625,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-92 — attack surface increased.
+DRF00771,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 277 days.
+DRF00972,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-80 — attack surface increased.
+DRF00840,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00604,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00844,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00769,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-82 — exposure risk.
+DRF00932,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00593,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00813,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00945,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00868,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00748,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-69 — exposure risk.
+DRF00579,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-81 — attack surface increased.
+DRF00732,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00909,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00589,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00750,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00710,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00538,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00886,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-48 — exposure risk.
+DRF00644,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00575,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00541,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00657,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00896,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-88 — monitoring blind spot.
+DRF00702,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-14 — exposure risk.
+DRF00893,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 264 days.
+DRF00957,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00553,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00857,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00670,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00565,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-89 — exposure risk.
+DRF00668,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-97 — exposure risk.
+DRF00992,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 259 days.
+DRF00785,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00781,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00767,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00787,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00768,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-93 — attack surface increased.
+DRF00995,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00966,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00558,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00776,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-32 — attack surface increased.
+DRF00516,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00867,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 255 days.
+DRF00671,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00731,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00563,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00938,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-41 — exposure risk.
+DRF00905,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00967,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00664,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 254 days.
+DRF00888,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00883,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00777,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00607,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00606,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 250 days.
+DRF00623,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00525,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00641,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00982,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00981,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00926,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-75 — attack surface increased.
+DRF00990,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00874,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-67 — exposure risk.
+DRF00860,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-58 — attack surface increased.
+DRF00976,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-61 — attack surface increased.
+DRF00539,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-39 — attack surface increased.
+DRF00549,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00576,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-8 — attack surface increased.
+DRF00826,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00695,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-99 — attack surface increased.
+DRF00523,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00983,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 243 days.
+DRF00630,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00569,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 242 days.
+DRF00907,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 242 days.
+DRF00611,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00596,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00827,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00691,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 238 days.
+DRF00736,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00766,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00595,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00765,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-47 — monitoring blind spot.
+DRF00921,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 237 days.
+DRF00752,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00557,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-13 — attack surface increased.
+DRF00871,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 236 days.
+DRF00701,True,PROTECTION_DISABLED,High,Vulnerability control disabled vs baseline and unresolved.
+DRF00742,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-38 — exposure risk.
+DRF00598,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00621,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-65 — exposure risk.
+DRF00524,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00961,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00897,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00570,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-52 — attack surface increased.
+DRF00753,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00547,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00845,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 229 days.
+DRF00770,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00594,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00744,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00588,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-3 — attack surface increased.
+DRF00737,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-60 — monitoring blind spot.
+DRF00601,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00712,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-91 — attack surface increased.
+DRF00900,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 225 days.
+DRF00536,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00751,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00665,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00704,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00758,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-11 — attack surface increased.
+DRF00546,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00968,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-42 — exposure risk.
+DRF00666,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00811,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-70 — exposure risk.
+DRF00912,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-10 — attack surface increased.
+DRF00839,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00793,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-70 — exposure risk.
+DRF00762,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00940,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00627,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-25 — attack surface increased.
+DRF00812,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00817,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 219 days.
+DRF00564,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00987,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 218 days.
+DRF00800,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00636,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-84 — exposure risk.
+DRF00624,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-97 — monitoring blind spot.
+DRF00916,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-62 — monitoring blind spot.
+DRF00782,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00680,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00519,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00756,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-54 — monitoring blind spot.
+DRF00688,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 210 days.
+DRF00540,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 209 days.
+DRF00583,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-98 — monitoring blind spot.
+DRF00835,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00952,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-5 — monitoring blind spot.
+DRF00910,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-36 — attack surface increased.
+DRF00833,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00802,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00755,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-38 — monitoring blind spot.
+DRF00774,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00872,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00836,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00922,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00610,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-33 — attack surface increased.
+DRF00530,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00831,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00542,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00629,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00882,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 199 days.
+DRF00599,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00648,True,PROTECTION_DISABLED,High,DLP control disabled vs baseline and unresolved.
+DRF00856,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00556,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00779,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-50 — attack surface increased.
+DRF00559,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-96 — attack surface increased.
+DRF00772,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00997,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00502,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 194 days.
+DRF00637,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 193 days.
+DRF00682,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00554,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00804,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00869,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00975,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-81 — attack surface increased.
+DRF00962,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00609,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00973,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00959,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00510,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00544,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-29 — attack surface increased.
+DRF00678,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00933,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 187 days.
+DRF00894,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00743,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00673,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00658,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00819,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-95 — monitoring blind spot.
+DRF00740,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 181 days.
+DRF00890,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-40 — exposure risk.
+DRF00508,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 179 days.
+DRF00500,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00577,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00631,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-74 — monitoring blind spot.
+DRF00986,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00795,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00529,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 177 days.
+DRF00955,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00999,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-61 — monitoring blind spot.
+DRF00851,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00535,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00852,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00719,True,PROTECTION_DISABLED,High,Cloud_Security control disabled vs baseline and unresolved.
+DRF00757,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00512,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00618,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-52 — attack surface increased.
+DRF00515,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-21 — attack surface increased.
+DRF00639,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-79 — monitoring blind spot.
+DRF00923,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00864,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00578,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-65 — attack surface increased.
+DRF00669,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-5 — attack surface increased.
+DRF00796,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-68 — attack surface increased.
+DRF00552,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 165 days.
+DRF00985,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-45 — exposure risk.
+DRF00622,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-18 — attack surface increased.
+DRF00602,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 162 days.
+DRF00580,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 162 days.
+DRF00653,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00746,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00521,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00735,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00937,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-90 — attack surface increased.
+DRF00791,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-10 — attack surface increased.
+DRF00527,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00522,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-79 — exposure risk.
+DRF00509,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00863,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00724,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-63 — attack surface increased.
+DRF00533,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00548,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00908,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-1 — attack surface increased.
+DRF00562,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00903,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00799,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00970,True,PROTECTION_DISABLED,High,Endpoint control disabled vs baseline and unresolved.
+DRF00953,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00911,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00696,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00974,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-56 — monitoring blind spot.
+DRF00532,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00808,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00711,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00989,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-5 — attack surface increased.
+DRF00956,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-94 — attack surface increased.
+DRF00991,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00705,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00616,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00920,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00537,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00647,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00821,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00797,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00686,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00875,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00730,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00726,True,PROTECTION_DISABLED,High,DLP control disabled vs baseline and unresolved.
+DRF00717,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00928,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-31 — attack surface increased.
+DRF00700,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-46 — attack surface increased.
+DRF00603,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00592,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00866,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00947,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00654,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-87 — exposure risk.
+DRF00551,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00876,True,PROTECTION_DISABLED,High,Endpoint control disabled vs baseline and unresolved.
+DRF00786,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00613,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-72 — attack surface increased.
+DRF00934,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00994,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00832,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-73 — exposure risk.
+DRF00652,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00501,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 135 days.
+DRF00846,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00679,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00815,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00998,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-93 — exposure risk.
+DRF00798,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 134 days.
+DRF00584,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-21 — monitoring blind spot.
+DRF00843,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-18 — monitoring blind spot.
+DRF00507,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00810,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-88 — exposure risk.
+DRF00825,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00950,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00824,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-8 — attack surface increased.
+DRF00943,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00520,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-37 — monitoring blind spot.
+DRF00590,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-5 — attack surface increased.
+DRF00672,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00873,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00754,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00936,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00944,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-67 — attack surface increased.
+DRF00829,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-22 — attack surface increased.
+DRF00503,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00792,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00693,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00984,True,PROTECTION_DISABLED,High,Vulnerability control disabled vs baseline and unresolved.
+DRF00906,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 121 days.
+DRF00612,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00828,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-18 — monitoring blind spot.
+DRF00965,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 120 days.
+DRF00739,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00504,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00674,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00597,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00901,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00899,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00849,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-13 — exposure risk.
+DRF00780,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-83 — exposure risk.
+DRF00585,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00571,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00914,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 115 days.
+DRF00714,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00915,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-38 — attack surface increased.
+DRF00861,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00988,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00954,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00738,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00877,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-50 — attack surface increased.
+DRF00734,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00803,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-76 — exposure risk.
+DRF00996,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-59 — monitoring blind spot.
+DRF00656,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00887,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00941,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-80 — exposure risk.
+DRF00889,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-69 — monitoring blind spot.
+DRF00884,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-13 — exposure risk.
+DRF00925,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-66 — attack surface increased.
+DRF00818,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-75 — exposure risk.
+DRF00919,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 105 days.
+DRF00929,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00725,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-80 — exposure risk.
+DRF00528,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00794,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00667,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-67 — attack surface increased.
+DRF00858,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 101 days.
+DRF00978,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00892,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00964,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00517,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00745,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 98 days.
+DRF00506,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00591,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-10 — attack surface increased.
+DRF00608,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-63 — attack surface increased.
+DRF00807,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00634,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-48 — exposure risk.
+DRF00942,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-36 — exposure risk.
+DRF00650,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00775,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-19 — exposure risk.
+DRF00055,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-38 — exposure risk.
+DRF00330,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-12 — attack surface increased.
+DRF00027,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-39 — monitoring blind spot.
+DRF00245,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-74 — attack surface increased.
+DRF00063,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00336,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00304,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00110,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00344,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-47 — exposure risk.
+DRF00222,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 87 days.
+DRF00411,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-30 — exposure risk.
+DRF00046,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00408,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00433,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-23 — attack surface increased.
+DRF00070,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00284,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00178,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00462,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-53 — monitoring blind spot.
+DRF00360,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00334,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-71 — attack surface increased.
+DRF00316,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00080,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-80 — exposure risk.
+DRF00482,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00064,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-1 — exposure risk.
+DRF00339,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00049,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00042,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 85 days.
+DRF00174,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00120,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00430,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00151,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00291,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-22 — monitoring blind spot.
+DRF00386,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00379,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00400,True,PROTECTION_DISABLED,High,Vulnerability control disabled vs baseline and unresolved.
+DRF00175,True,PROTECTION_DISABLED,High,Endpoint control disabled vs baseline and unresolved.
+DRF00016,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00407,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00157,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 82 days.
+DRF00365,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00390,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-97 — attack surface increased.
+DRF00052,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-6 — monitoring blind spot.
+DRF00058,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-26 — monitoring blind spot.
+DRF00288,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00489,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 81 days.
+DRF00359,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-92 — attack surface increased.
+DRF00299,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-97 — attack surface increased.
+DRF00467,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00458,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00182,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-8 — attack surface increased.
+DRF00154,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-34 — exposure risk.
+DRF00342,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00203,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 79 days.
+DRF00013,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-59 — monitoring blind spot.
+DRF00443,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00170,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00098,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00355,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-56 — attack surface increased.
+DRF00307,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00045,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00191,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00340,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00280,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-20 — exposure risk.
+DRF00324,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00332,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00389,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 77 days.
+DRF00441,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00466,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00219,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00325,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-95 — attack surface increased.
+DRF00358,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 76 days.
+DRF00177,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00103,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-26 — exposure risk.
+DRF00091,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00440,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00075,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00090,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00231,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-19 — attack surface increased.
+DRF00439,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-17 — attack surface increased.
+DRF00328,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00144,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00201,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00460,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00497,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00057,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00318,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00166,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00490,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00393,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 73 days.
+DRF00043,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00004,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-14 — attack surface increased.
+DRF00262,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00277,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00073,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00065,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-74 — monitoring blind spot.
+DRF00031,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-99 — attack surface increased.
+DRF00261,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00431,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00129,True,PROTECTION_DISABLED,High,DLP control disabled vs baseline and unresolved.
+DRF00078,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00251,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00139,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 72 days.
+DRF00202,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00145,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00341,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00130,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00242,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-16 — attack surface increased.
+DRF00000,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00044,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00403,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00246,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00444,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-41 — monitoring blind spot.
+DRF00221,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 70 days.
+DRF00461,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00309,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00053,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 69 days.
+DRF00474,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-5 — exposure risk.
+DRF00188,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00406,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00356,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 68 days.
+DRF00197,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00122,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 67 days.
+DRF00257,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00095,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-12 — exposure risk.
+DRF00244,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 67 days.
+DRF00412,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-82 — exposure risk.
+DRF00418,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-71 — attack surface increased.
+DRF00228,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00423,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 66 days.
+DRF00354,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00117,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00207,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00499,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00305,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00022,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 64 days.
+DRF00153,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00449,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00160,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00286,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-40 — attack surface increased.
+DRF00436,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00252,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00493,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-25 — monitoring blind spot.
+DRF00152,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00320,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00273,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00494,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00427,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-33 — attack surface increased.
+DRF00473,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00469,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00141,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-79 — exposure risk.
+DRF00271,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 61 days.
+DRF00371,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 61 days.
+DRF00032,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00451,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00268,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-36 — attack surface increased.
+DRF00391,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00086,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00124,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00161,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-31 — monitoring blind spot.
+DRF00094,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-35 — exposure risk.
+DRF00005,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00212,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00119,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00126,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00483,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00248,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-2 — monitoring blind spot.
+DRF00382,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00195,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00351,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00218,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00034,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00301,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00476,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-22 — exposure risk.
+DRF00311,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-37 — monitoring blind spot.
+DRF00337,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-1 — attack surface increased.
+DRF00105,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00464,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00028,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-69 — monitoring blind spot.
+DRF00453,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00292,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-23 — attack surface increased.
+DRF00131,True,PROTECTION_DISABLED,High,DLP control disabled vs baseline and unresolved.
+DRF00485,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 56 days.
+DRF00395,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-62 — attack surface increased.
+DRF00387,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 56 days.
+DRF00437,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00343,True,PROTECTION_DISABLED,High,Cloud_Security control disabled vs baseline and unresolved.
+DRF00429,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 56 days.
+DRF00370,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00184,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00236,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-16 — attack surface increased.
+DRF00383,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-43 — attack surface increased.
+DRF00088,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00254,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-82 — attack surface increased.
+DRF00217,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00283,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00472,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00404,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 52 days.
+DRF00180,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00192,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00471,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00100,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00209,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-22 — monitoring blind spot.
+DRF00059,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-51 — attack surface increased.
+DRF00140,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00294,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-95 — exposure risk.
+DRF00322,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-21 — exposure risk.
+DRF00033,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-16 — exposure risk.
+DRF00410,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 51 days.
+DRF00102,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00146,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-5 — exposure risk.
+DRF00374,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 50 days.
+DRF00054,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00149,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00159,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-94 — exposure risk.
+DRF00346,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-35 — attack surface increased.
+DRF00345,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-52 — attack surface increased.
+DRF00415,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00014,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00327,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-97 — attack surface increased.
+DRF00115,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-85 — attack surface increased.
+DRF00376,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00147,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00067,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-49 — monitoring blind spot.
+DRF00297,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-63 — attack surface increased.
+DRF00023,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-15 — exposure risk.
+DRF00186,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00398,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-49 — attack surface increased.
+DRF00285,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-96 — monitoring blind spot.
+DRF00164,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00237,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 47 days.
+DRF00003,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00158,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-45 — attack surface increased.
+DRF00347,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00216,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-46 — exposure risk.
+DRF00024,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-40 — monitoring blind spot.
+DRF00321,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-30 — attack surface increased.
+DRF00239,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-64 — attack surface increased.
+DRF00492,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00204,True,PROTECTION_DISABLED,High,Vulnerability control disabled vs baseline and unresolved.
+DRF00470,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-82 — exposure risk.
+DRF00019,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00303,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00150,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 45 days.
+DRF00111,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00135,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-30 — exposure risk.
+DRF00106,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 44 days.
+DRF00085,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 44 days.
+DRF00282,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-56 — exposure risk.
+DRF00463,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 43 days.
+DRF00425,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00361,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00226,True,PROTECTION_DISABLED,High,Endpoint control disabled vs baseline and unresolved.
+DRF00278,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00128,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00421,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 41 days.
+DRF00368,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00040,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00455,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 40 days.
+DRF00247,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-19 — monitoring blind spot.
+DRF00420,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00422,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-98 — attack surface increased.
+DRF00402,True,STALE_TEMPORARY,Medium,'Emergency Fix' change unresolved for 39 days.
+DRF00234,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-85 — monitoring blind spot.
+DRF00185,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00281,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-20 — attack surface increased.
+DRF00193,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-28 — exposure risk.
+DRF00338,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00190,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-84 — exposure risk.
+DRF00037,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00051,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00084,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-62 — attack surface increased.
+DRF00475,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-48 — attack surface increased.
+DRF00256,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00290,True,STALE_TEMPORARY,Medium,'Troubleshooting' change unresolved for 37 days.
+DRF00196,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-35 — attack surface increased.
+DRF00446,True,PROTECTION_DISABLED,High,Vulnerability control disabled vs baseline and unresolved.
+DRF00199,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-8 — exposure risk.
+DRF00227,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00113,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00215,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00253,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-77 — attack surface increased.
+DRF00108,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00036,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-61 — exposure risk.
+DRF00142,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00298,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00123,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-2 — attack surface increased.
+DRF00498,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00229,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-90 — attack surface increased.
+DRF00435,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00306,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-89 — attack surface increased.
+DRF00438,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00001,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-89 — attack surface increased.
+DRF00333,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00020,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00021,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-48 — attack surface increased.
+DRF00017,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00012,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00276,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00314,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00093,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00138,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00015,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00468,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00061,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00454,True,PROTECTION_DISABLED,High,DLP control disabled vs baseline and unresolved.
+DRF00132,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-5 — monitoring blind spot.
+DRF00068,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-93 — attack surface increased.
+DRF00265,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00069,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00264,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00097,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00350,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00450,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00009,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00220,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00189,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00401,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00459,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00112,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00317,True,PROTECTION_DISABLED,High,Vulnerability control disabled vs baseline and unresolved.
+DRF00249,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00223,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00060,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00413,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00388,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00030,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00062,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00076,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00210,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-86 — exposure risk.
+DRF00155,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-54 — attack surface increased.
+DRF00263,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00050,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00109,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00134,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-55 — exposure risk.
+DRF00213,True,PROTECTION_DISABLED,High,Cloud_Security control disabled vs baseline and unresolved.
+DRF00477,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00041,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00168,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00409,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-70 — exposure risk.
+DRF00331,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00364,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00349,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-18 — exposure risk.
+DRF00312,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00165,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00099,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00480,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00377,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00392,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00416,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00442,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00381,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-29 — exposure risk.
+DRF00026,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00279,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00208,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00018,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-28 — attack surface increased.
+DRF00002,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-18 — monitoring blind spot.
+DRF00428,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-80 — attack surface increased.
+DRF00481,True,PROTECTION_DISABLED,High,Vulnerability control disabled vs baseline and unresolved.
+DRF00143,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00038,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00366,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00048,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-42 — exposure risk.
+DRF00198,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00484,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00310,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00114,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00385,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-38 — attack surface increased.
+DRF00167,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00183,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-51 — monitoring blind spot.
+DRF00087,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00179,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00211,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00232,True,PROTECTION_DISABLED,High,DLP control disabled vs baseline and unresolved.
+DRF00187,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00397,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00171,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00323,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-13 — exposure risk.
+DRF00118,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00313,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00419,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-25 — attack surface increased.
+DRF00082,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-17 — attack surface increased.
+DRF00496,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00255,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00066,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00296,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-93 — exposure risk.
+DRF00116,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-47 — attack surface increased.
+DRF00396,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00293,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00260,True,PROTECTION_DISABLED,High,Endpoint control disabled vs baseline and unresolved.
+DRF00335,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00491,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-88 — monitoring blind spot.
+DRF00363,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00372,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-51 — attack surface increased.
+DRF00486,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00133,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-98 — monitoring blind spot.
+DRF00319,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00148,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00081,True,PROTECTION_DISABLED,High,Vulnerability control disabled vs baseline and unresolved.
+DRF00424,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00399,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-29 — attack surface increased.
+DRF00039,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00071,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-54 — exposure risk.
+DRF00295,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00487,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00121,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00127,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00300,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00352,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-51 — attack surface increased.
+DRF00162,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00488,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00289,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00206,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00156,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00240,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00214,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-13 — monitoring blind spot.
+DRF00394,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00378,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00447,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-59 — exposure risk.
+DRF00308,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-35 — exposure risk.
+DRF00235,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-50 — exposure risk.
+DRF00035,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00089,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-73 — monitoring blind spot.
+DRF00092,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00275,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-75 — exposure risk.
+DRF00079,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-59 — attack surface increased.
+DRF00029,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00169,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00181,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00405,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00369,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-73 — monitoring blind spot.
+DRF00348,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00194,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-64 — exposure risk.
+DRF00479,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00077,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00270,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-57 — attack surface increased.
+DRF00173,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00478,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-69 — attack surface increased.
+DRF00225,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00329,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-40 — attack surface increased.
+DRF00136,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-25 — exposure risk.
+DRF00230,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00287,True,PROTECTION_DISABLED,High,Endpoint control disabled vs baseline and unresolved.
+DRF00025,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00269,True,PROTECTION_DISABLED,High,Vulnerability control disabled vs baseline and unresolved.
+DRF00367,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00125,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00417,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00426,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00224,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00357,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00137,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00274,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00205,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-73 — attack surface increased.
+DRF00096,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00414,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-88 — attack surface increased.
+DRF00272,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00362,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00384,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00163,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-32 — attack surface increased.
+DRF00107,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-94 — exposure risk.
+DRF00448,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-59 — exposure risk.
+DRF00243,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00047,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00380,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00104,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-73 — attack surface increased.
+DRF00373,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-87 — exposure risk.
+DRF00266,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00250,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00457,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-70 — exposure risk.
+DRF00241,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00452,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00006,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-41 — attack surface increased.
+DRF00258,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00456,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-42 — monitoring blind spot.
+DRF00200,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00465,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00259,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00008,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00074,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00233,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-49 — attack surface increased.
+DRF00083,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00315,True,PROTECTION_DISABLED,High,Cloud_Security control disabled vs baseline and unresolved.
+DRF00432,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00176,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00010,True,ENCRYPTION_WEAKENED,Critical,Data protection weakened on Control-9 — exposure risk.
+DRF00353,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00172,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00267,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-55 — monitoring blind spot.
+DRF00007,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-90 — attack surface increased.
+DRF00011,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-56 — attack surface increased.
+DRF00302,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00326,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00495,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00056,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00072,True,LOGGING_DISABLED,Critical,Audit logging weakened on Control-69 — monitoring blind spot.
+DRF00101,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-11 — attack surface increased.
+DRF00445,True,PROTECTION_DISABLED,High,DLP control disabled vs baseline and unresolved.
+DRF00238,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00375,False,BENIGN,None,Routine approved change consistent with baseline.
+DRF00434,True,ACCESS_BROADENED,High,Boundary/auth control weakened on Control-59 — attack surface increased.

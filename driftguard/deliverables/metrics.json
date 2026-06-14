@@ -1,0 +1,48 @@
+{
+  "ground_truth": "derived from PS anomaly taxonomy (labels.py); severity column shown to be noise",
+  "events_total": 1000,
+  "anomalies_total": 401,
+  "flagged_total": 422,
+  "detection_rate": 0.858,
+  "false_positive_rate": 0.13,
+  "precision": 0.815,
+  "f1": 0.836,
+  "targets": {
+    "detection_rate": "> 0.80",
+    "false_positive_rate": "< 0.15"
+  },
+  "meets_targets": true,
+  "confusion": {
+    "tp": 344,
+    "fp": 78,
+    "fn": 57,
+    "tn": 521
+  },
+  "per_anomaly_type": {
+    "ACCESS_BROADENED": {
+      "total": 139,
+      "detected": 109,
+      "rate": 0.784
+    },
+    "ENCRYPTION_WEAKENED": {
+      "total": 90,
+      "detected": 81,
+      "rate": 0.9
+    },
+    "LOGGING_DISABLED": {
+      "total": 60,
+      "detected": 49,
+      "rate": 0.817
+    },
+    "PROTECTION_DISABLED": {
+      "total": 29,
+      "detected": 29,
+      "rate": 1.0
+    },
+    "STALE_TEMPORARY": {
+      "total": 83,
+      "detected": 76,
+      "rate": 0.916
+    }
+  }
+}

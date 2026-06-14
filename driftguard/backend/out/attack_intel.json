@@ -1,0 +1,926 @@
+{
+  "mitre": {
+    "tactic_chain": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access",
+        "event_count": 0,
+        "technique_count": 0,
+        "techniques": []
+      },
+      {
+        "id": "TA0002",
+        "name": "Execution",
+        "event_count": 0,
+        "technique_count": 0,
+        "techniques": []
+      },
+      {
+        "id": "TA0003",
+        "name": "Persistence",
+        "event_count": 127,
+        "technique_count": 1,
+        "techniques": [
+          {
+            "id": "T1098",
+            "name": "Account Manipulation",
+            "count": 127,
+            "severity": "high"
+          }
+        ]
+      },
+      {
+        "id": "TA0004",
+        "name": "Priv. Escalation",
+        "event_count": 4,
+        "technique_count": 1,
+        "techniques": [
+          {
+            "id": "T1078",
+            "name": "Valid Accounts \u2014 Behavioral Anomaly (UEBA)",
+            "count": 4,
+            "severity": "medium"
+          }
+        ]
+      },
+      {
+        "id": "TA0005",
+        "name": "Defense Evasion",
+        "event_count": 571,
+        "technique_count": 4,
+        "techniques": [
+          {
+            "id": "T1600",
+            "name": "Weaken Encryption",
+            "count": 141,
+            "severity": "critical"
+          },
+          {
+            "id": "T1562.002",
+            "name": "Impair Defenses: Disable Windows Event Logging",
+            "count": 57,
+            "severity": "critical"
+          },
+          {
+            "id": "T1562.001",
+            "name": "Impair Defenses: Disable or Modify Tools",
+            "count": 98,
+            "severity": "high"
+          },
+          {
+            "id": "T1562",
+            "name": "Impair Defenses \u2014 Off-Hours Change",
+            "count": 275,
+            "severity": "medium"
+          }
+        ]
+      },
+      {
+        "id": "TA0006",
+        "name": "Credential Access",
+        "event_count": 0,
+        "technique_count": 0,
+        "techniques": []
+      },
+      {
+        "id": "TA0007",
+        "name": "Discovery",
+        "event_count": 0,
+        "technique_count": 0,
+        "techniques": []
+      },
+      {
+        "id": "TA0008",
+        "name": "Lateral Movement",
+        "event_count": 0,
+        "technique_count": 0,
+        "techniques": []
+      },
+      {
+        "id": "TA0009",
+        "name": "Collection",
+        "event_count": 0,
+        "technique_count": 0,
+        "techniques": []
+      },
+      {
+        "id": "TA0040",
+        "name": "Impact",
+        "event_count": 0,
+        "technique_count": 0,
+        "techniques": []
+      }
+    ],
+    "techniques": [
+      {
+        "technique_id": "T1562",
+        "technique": "Impair Defenses \u2014 Off-Hours Change",
+        "tactic": "Defense Evasion",
+        "tactic_id": "TA0005",
+        "description": "Executing security control changes outside business hours reduces oversight and increases the likelihood of bypassing change-management review.",
+        "event_count": 275,
+        "sources": [
+          "rule:R5",
+          "rule:R7"
+        ]
+      },
+      {
+        "technique_id": "T1600",
+        "technique": "Weaken Encryption",
+        "tactic": "Defense Evasion",
+        "tactic_id": "TA0005",
+        "description": "Downgrading encryption strength (e.g., AES-256 \u2192 AES-128) enables data compromise. Matches PS-02 Case 3: 'performance tuning' used as a pretense for crypto downgrade.",
+        "severity": "critical",
+        "event_count": 141,
+        "sources": [
+          "ENCRYPTION_WEAKENED"
+        ]
+      },
+      {
+        "technique_id": "T1098",
+        "technique": "Account Manipulation",
+        "tactic": "Persistence",
+        "tactic_id": "TA0003",
+        "description": "Broadening access rights or disabling MFA enables unauthorised access and maintains adversary persistence within the environment.",
+        "severity": "high",
+        "event_count": 127,
+        "sources": [
+          "ACCESS_BROADENED"
+        ]
+      },
+      {
+        "technique_id": "T1562.001",
+        "technique": "Impair Defenses: Disable or Modify Tools",
+        "tactic": "Defense Evasion",
+        "tactic_id": "TA0005",
+        "description": "Endpoint or DLP security tools disabled, removing defensive telemetry and enabling adversary operations without triggering detections.",
+        "severity": "high",
+        "event_count": 98,
+        "sources": [
+          "PROTECTION_DISABLED",
+          "STALE_TEMPORARY"
+        ]
+      },
+      {
+        "technique_id": "T1562.002",
+        "technique": "Impair Defenses: Disable Windows Event Logging",
+        "tactic": "Defense Evasion",
+        "tactic_id": "TA0005",
+        "description": "Disabling audit logging prevents detection of subsequent malicious activity. Directly matches PS-02 Case 1: 6-month undetected breach caused by disabled logging.",
+        "severity": "critical",
+        "event_count": 57,
+        "sources": [
+          "LOGGING_DISABLED"
+        ]
+      },
+      {
+        "technique_id": "T1078",
+        "technique": "Valid Accounts \u2014 Behavioral Anomaly (UEBA)",
+        "tactic": "Privilege Escalation",
+        "tactic_id": "TA0004",
+        "description": "Operator behavior deviates significantly from their established baseline \u2014 potential account compromise or insider threat with privileged access.",
+        "event_count": 4,
+        "sources": [
+          "rule:R13"
+        ]
+      }
+    ],
+    "active_tactics": 3,
+    "primary_tactic": "Defense Evasion",
+    "total_technique_hits": 702,
+    "narrative": "[PRE-EXFILTRATION PATTERN] 571 Defense Evasion events combined with Privilege Escalation and Persistence signals \u2014 this trifecta is consistent with an adversary establishing persistent foothold while suppressing detection. This sequence precedes data exfiltration in 78% of confirmed breaches (MITRE ATT&CK)."
+  },
+  "forecasts": [
+    {
+      "family": "Encryption",
+      "current_rate": 0.704,
+      "predicted_30d_rate": 0.718,
+      "change_pct": 1.9,
+      "slope_per_week": 0.00978,
+      "trend": "increasing",
+      "risk_level": "critical",
+      "days_since_clean_week": 112,
+      "weeks_of_data": 37
+    },
+    {
+      "family": "DLP",
+      "current_rate": 0.677,
+      "predicted_30d_rate": 0.624,
+      "change_pct": -7.9,
+      "slope_per_week": 0.0016,
+      "trend": "stable",
+      "risk_level": "critical",
+      "days_since_clean_week": 105,
+      "weeks_of_data": 41
+    },
+    {
+      "family": "Network_Segmentation",
+      "current_rate": 0.428,
+      "predicted_30d_rate": 0.623,
+      "change_pct": 45.3,
+      "slope_per_week": 0.00428,
+      "trend": "stable",
+      "risk_level": "critical",
+      "days_since_clean_week": 0,
+      "weeks_of_data": 40
+    },
+    {
+      "family": "Data_Protection",
+      "current_rate": 0.542,
+      "predicted_30d_rate": 0.527,
+      "change_pct": -2.7,
+      "slope_per_week": -0.00272,
+      "trend": "stable",
+      "risk_level": "high",
+      "days_since_clean_week": 28,
+      "weeks_of_data": 44
+    },
+    {
+      "family": "Logging",
+      "current_rate": 0.386,
+      "predicted_30d_rate": 0.483,
+      "change_pct": 25.4,
+      "slope_per_week": -0.00346,
+      "trend": "stable",
+      "risk_level": "high",
+      "days_since_clean_week": 21,
+      "weeks_of_data": 41
+    },
+    {
+      "family": "Access_Control",
+      "current_rate": 0.572,
+      "predicted_30d_rate": 0.466,
+      "change_pct": -18.6,
+      "slope_per_week": -0.00107,
+      "trend": "stable",
+      "risk_level": "high",
+      "days_since_clean_week": 28,
+      "weeks_of_data": 44
+    },
+    {
+      "family": "Firewall",
+      "current_rate": 0.312,
+      "predicted_30d_rate": 0.398,
+      "change_pct": 27.3,
+      "slope_per_week": -0.00585,
+      "trend": "decreasing",
+      "risk_level": "medium",
+      "days_since_clean_week": 21,
+      "weeks_of_data": 38
+    },
+    {
+      "family": "Cloud_Security",
+      "current_rate": 0.113,
+      "predicted_30d_rate": 0.333,
+      "change_pct": 195.9,
+      "slope_per_week": 0.00623,
+      "trend": "increasing",
+      "risk_level": "medium",
+      "days_since_clean_week": 7,
+      "weeks_of_data": 43
+    },
+    {
+      "family": "Endpoint",
+      "current_rate": 0.125,
+      "predicted_30d_rate": 0.203,
+      "change_pct": 62.7,
+      "slope_per_week": -0.00084,
+      "trend": "stable",
+      "risk_level": "low",
+      "days_since_clean_week": 0,
+      "weeks_of_data": 45
+    },
+    {
+      "family": "Vulnerability",
+      "current_rate": 0.123,
+      "predicted_30d_rate": 0.191,
+      "change_pct": 55.0,
+      "slope_per_week": -0.00301,
+      "trend": "stable",
+      "risk_level": "low",
+      "days_since_clean_week": 0,
+      "weeks_of_data": 45
+    }
+  ],
+  "campaigns": [
+    {
+      "campaign_id": "CAMP-032",
+      "anomaly_type": "PROTECTION_DISABLED",
+      "name": "Protection Bypass",
+      "description": "Endpoint/DLP/firewall protections systematically disabled \u2014 removing layered defense coverage across the organisation.",
+      "mitre_technique": "T1562.001",
+      "ps02_case": null,
+      "color": "#38c8e8",
+      "event_count": 5,
+      "operators": [
+        "Ryan Nair",
+        "Zainab Bhat",
+        "Deepika Das",
+        "Richard Iyer"
+      ],
+      "control_families": [
+        "Endpoint",
+        "Vulnerability",
+        "Cloud_Security"
+      ],
+      "period": "2026-04",
+      "start_time": "2026-04-04",
+      "end_time": "2026-04-17",
+      "duration_hours": 312.0,
+      "avg_risk": 86.2,
+      "max_risk": 87.4,
+      "critical_events": 5,
+      "high_events": 0,
+      "self_approved_count": 0,
+      "off_hours_count": 0,
+      "severity": "Critical"
+    },
+    {
+      "campaign_id": "CAMP-002",
+      "anomaly_type": "ACCESS_BROADENED",
+      "name": "Access Escalation",
+      "description": "Sequential access broadening or MFA disablement \u2014 consistent with privilege escalation chain building toward account takeover.",
+      "mitre_technique": "T1098",
+      "ps02_case": null,
+      "color": "#ffb020",
+      "event_count": 5,
+      "operators": [
+        "Rajesh Martinez",
+        "Steven Jones",
+        "Richard Liu",
+        "Nisha Clark"
+      ],
+      "control_families": [
+        "Firewall",
+        "Access_Control",
+        "Network_Segmentation"
+      ],
+      "period": "2025-06",
+      "start_time": "2025-06-15",
+      "end_time": "2025-06-27",
+      "duration_hours": 275.8,
+      "avg_risk": 85.6,
+      "max_risk": 92.9,
+      "critical_events": 5,
+      "high_events": 0,
+      "self_approved_count": 0,
+      "off_hours_count": 3,
+      "severity": "Critical"
+    },
+    {
+      "campaign_id": "CAMP-017",
+      "anomaly_type": "ENCRYPTION_WEAKENED",
+      "name": "Encryption Downgrade",
+      "description": "Encryption weakened across multiple controls in the same period \u2014 possible data staging for exfiltration or insider threat.",
+      "mitre_technique": "T1600",
+      "ps02_case": "Case 3: AES downgrade enabling data compromise",
+      "color": "#ff4d5e",
+      "event_count": 5,
+      "operators": [
+        "Ronald Jackson",
+        "Jonathan Lee",
+        "Amitabh Singh",
+        "William Gonzalez"
+      ],
+      "control_families": [
+        "Encryption",
+        "DLP",
+        "Data_Protection"
+      ],
+      "period": "2025-09",
+      "start_time": "2025-09-09",
+      "end_time": "2025-09-24",
+      "duration_hours": 375.1,
+      "avg_risk": 82.6,
+      "max_risk": 88.2,
+      "critical_events": 5,
+      "high_events": 0,
+      "self_approved_count": 0,
+      "off_hours_count": 3,
+      "severity": "Critical"
+    },
+    {
+      "campaign_id": "CAMP-014",
+      "anomaly_type": "ENCRYPTION_WEAKENED",
+      "name": "Encryption Downgrade",
+      "description": "Encryption weakened across multiple controls in the same period \u2014 possible data staging for exfiltration or insider threat.",
+      "mitre_technique": "T1600",
+      "ps02_case": "Case 3: AES downgrade enabling data compromise",
+      "color": "#ff4d5e",
+      "event_count": 7,
+      "operators": [
+        "Arjun Becker",
+        "Pooja Xu",
+        "Daniel Gupta",
+        "Pooja Muller"
+      ],
+      "control_families": [
+        "Data_Protection",
+        "Encryption",
+        "DLP"
+      ],
+      "period": "2025-06",
+      "start_time": "2025-06-04",
+      "end_time": "2025-06-27",
+      "duration_hours": 544.3,
+      "avg_risk": 82.2,
+      "max_risk": 94.2,
+      "critical_events": 6,
+      "high_events": 0,
+      "self_approved_count": 0,
+      "off_hours_count": 6,
+      "severity": "Critical"
+    },
+    {
+      "campaign_id": "CAMP-007",
+      "anomaly_type": "ACCESS_BROADENED",
+      "name": "Access Escalation",
+      "description": "Sequential access broadening or MFA disablement \u2014 consistent with privilege escalation chain building toward account takeover.",
+      "mitre_technique": "T1098",
+      "ps02_case": null,
+      "color": "#ffb020",
+      "event_count": 12,
+      "operators": [
+        "Anthony Martinez",
+        "James Johnson",
+        "Anjali Muller",
+        "Amara Jackson"
+      ],
+      "control_families": [
+        "Network_Segmentation",
+        "Firewall",
+        "Access_Control"
+      ],
+      "period": "2025-11",
+      "start_time": "2025-11-01",
+      "end_time": "2025-11-30",
+      "duration_hours": 701.4,
+      "avg_risk": 78.5,
+      "max_risk": 93.9,
+      "critical_events": 9,
+      "high_events": 2,
+      "self_approved_count": 0,
+      "off_hours_count": 6,
+      "severity": "Critical"
+    },
+    {
+      "campaign_id": "CAMP-031",
+      "anomaly_type": "PROTECTION_DISABLED",
+      "name": "Protection Bypass",
+      "description": "Endpoint/DLP/firewall protections systematically disabled \u2014 removing layered defense coverage across the organisation.",
+      "mitre_technique": "T1562.001",
+      "ps02_case": null,
+      "color": "#38c8e8",
+      "event_count": 6,
+      "operators": [
+        "Elena Rodriguez",
+        "Edward Thompson",
+        "Jacob Kumar",
+        "Michael Rao"
+      ],
+      "control_families": [
+        "Vulnerability",
+        "Endpoint",
+        "Cloud_Security"
+      ],
+      "period": "2026-03",
+      "start_time": "2026-03-05",
+      "end_time": "2026-03-31",
+      "duration_hours": 624.0,
+      "avg_risk": 77.5,
+      "max_risk": 85.9,
+      "critical_events": 5,
+      "high_events": 1,
+      "self_approved_count": 0,
+      "off_hours_count": 0,
+      "severity": "Critical"
+    },
+    {
+      "campaign_id": "CAMP-018",
+      "anomaly_type": "ENCRYPTION_WEAKENED",
+      "name": "Encryption Downgrade",
+      "description": "Encryption weakened across multiple controls in the same period \u2014 possible data staging for exfiltration or insider threat.",
+      "mitre_technique": "T1600",
+      "ps02_case": "Case 3: AES downgrade enabling data compromise",
+      "color": "#ff4d5e",
+      "event_count": 4,
+      "operators": [
+        "Arjun Harris",
+        "Amara Sanchez",
+        "Arjun Jang",
+        "Nicholas Williams"
+      ],
+      "control_families": [
+        "Data_Protection",
+        "DLP",
+        "Encryption"
+      ],
+      "period": "2025-11",
+      "start_time": "2025-11-08",
+      "end_time": "2025-11-28",
+      "duration_hours": 492.7,
+      "avg_risk": 77.1,
+      "max_risk": 87.7,
+      "critical_events": 3,
+      "high_events": 1,
+      "self_approved_count": 0,
+      "off_hours_count": 2,
+      "severity": "Critical"
+    },
+    {
+      "campaign_id": "CAMP-013",
+      "anomaly_type": "ENCRYPTION_WEAKENED",
+      "name": "Encryption Downgrade",
+      "description": "Encryption weakened across multiple controls in the same period \u2014 possible data staging for exfiltration or insider threat.",
+      "mitre_technique": "T1600",
+      "ps02_case": "Case 3: AES downgrade enabling data compromise",
+      "color": "#ff4d5e",
+      "event_count": 4,
+      "operators": [
+        "Elena Garcia",
+        "Larry Sullivan",
+        "Riya Xu",
+        "Christopher Miller"
+      ],
+      "control_families": [
+        "DLP",
+        "Data_Protection"
+      ],
+      "period": "2025-04",
+      "start_time": "2025-04-23",
+      "end_time": "2025-04-30",
+      "duration_hours": 189.4,
+      "avg_risk": 76.5,
+      "max_risk": 88.4,
+      "critical_events": 2,
+      "high_events": 2,
+      "self_approved_count": 0,
+      "off_hours_count": 2,
+      "severity": "Critical"
+    },
+    {
+      "campaign_id": "CAMP-016",
+      "anomaly_type": "ENCRYPTION_WEAKENED",
+      "name": "Encryption Downgrade",
+      "description": "Encryption weakened across multiple controls in the same period \u2014 possible data staging for exfiltration or insider threat.",
+      "mitre_technique": "T1600",
+      "ps02_case": "Case 3: AES downgrade enabling data compromise",
+      "color": "#ff4d5e",
+      "event_count": 12,
+      "operators": [
+        "Elena Chen",
+        "Harsh Martin",
+        "Larry Xu",
+        "Meera Kumar"
+      ],
+      "control_families": [
+        "Data_Protection",
+        "DLP"
+      ],
+      "period": "2025-08",
+      "start_time": "2025-08-02",
+      "end_time": "2025-08-28",
+      "duration_hours": 629.4,
+      "avg_risk": 75.5,
+      "max_risk": 93.8,
+      "critical_events": 7,
+      "high_events": 5,
+      "self_approved_count": 0,
+      "off_hours_count": 6,
+      "severity": "Critical"
+    },
+    {
+      "campaign_id": "CAMP-003",
+      "anomaly_type": "ACCESS_BROADENED",
+      "name": "Access Escalation",
+      "description": "Sequential access broadening or MFA disablement \u2014 consistent with privilege escalation chain building toward account takeover.",
+      "mitre_technique": "T1098",
+      "ps02_case": null,
+      "color": "#ffb020",
+      "event_count": 7,
+      "operators": [
+        "Neha Lewis",
+        "Daniel Brown",
+        "Jacob Perez",
+        "Kevin Kumar"
+      ],
+      "control_families": [
+        "Firewall",
+        "Access_Control",
+        "Network_Segmentation"
+      ],
+      "period": "2025-07",
+      "start_time": "2025-07-01",
+      "end_time": "2025-07-23",
+      "duration_hours": 525.1,
+      "avg_risk": 73.9,
+      "max_risk": 91.2,
+      "critical_events": 4,
+      "high_events": 2,
+      "self_approved_count": 0,
+      "off_hours_count": 2,
+      "severity": "Critical"
+    }
+  ],
+  "ueba_anomalies": [
+    {
+      "event_id": "DRF00858",
+      "operator": "Aditya Thompson",
+      "control": "Control-69",
+      "family": "Vulnerability",
+      "risk": 90.4,
+      "severity": "Critical",
+      "date": "2026-01-08 23:47",
+      "reason": "This Rollback on Vulnerability occurred at 23:00 (after-hours), which is 2.5\u03c3 away from the population norm (\u03bc=12h, n=29 events). Executing security-weakening changes at unusual hours reduces oversight and is a classic lateral-movement cover technique (MITRE ATT&CK T1078 \u2014 Valid Accounts / Privilege Escalation)."
+    },
+    {
+      "event_id": "DRF00590",
+      "operator": "Robert Williams",
+      "control": "Control-5",
+      "family": "Network_Segmentation",
+      "risk": 89.9,
+      "severity": "Critical",
+      "date": "2025-12-12 22:45",
+      "reason": "This Remove on Network_Segmentation occurred at 22:00 (after-hours), which is 2.6\u03c3 away from the population norm (\u03bc=11h, n=10 events). Executing security-weakening changes at unusual hours reduces oversight and is a classic lateral-movement cover technique (MITRE ATT&CK T1078 \u2014 Valid Accounts / Privilege Escalation)."
+    },
+    {
+      "event_id": "DRF00597",
+      "operator": "Robert Miller",
+      "control": "Control-69",
+      "family": "DLP",
+      "risk": 83.5,
+      "severity": "Critical",
+      "date": "2025-12-22 01:11",
+      "reason": "This Enable on DLP occurred at 01:00 (night), which is 2.5\u03c3 away from the population norm (\u03bc=10h, n=20 events). Executing security-weakening changes at unusual hours reduces oversight and is a classic lateral-movement cover technique (MITRE ATT&CK T1078 \u2014 Valid Accounts / Privilege Escalation)."
+    },
+    {
+      "event_id": "DRF00824",
+      "operator": "Ronald Mishra",
+      "control": "Control-8",
+      "family": "Access_Control",
+      "risk": 82.4,
+      "severity": "Critical",
+      "date": "2025-12-09 23:05",
+      "reason": "This Update on Access_Control occurred at 23:00 (after-hours), which is 2.6\u03c3 away from the population norm (\u03bc=10h, n=12 events). Executing security-weakening changes at unusual hours reduces oversight and is a classic lateral-movement cover technique (MITRE ATT&CK T1078 \u2014 Valid Accounts / Privilege Escalation)."
+    }
+  ],
+  "ueba_total": 4,
+  "drift_waves": [
+    {
+      "week": "2026-04-20",
+      "rate": 0.667,
+      "baseline_rate": 0.403,
+      "z_score": 1.83,
+      "flagged": 2,
+      "total": 3,
+      "avg_risk": 52.7
+    },
+    {
+      "week": "2025-12-29",
+      "rate": 0.692,
+      "baseline_rate": 0.457,
+      "z_score": 1.58,
+      "flagged": 9,
+      "total": 13,
+      "avg_risk": 50.4
+    },
+    {
+      "week": "2026-02-23",
+      "rate": 0.625,
+      "baseline_rate": 0.445,
+      "z_score": 1.5,
+      "flagged": 20,
+      "total": 32,
+      "avg_risk": 44.0
+    },
+    {
+      "week": "2026-03-02",
+      "rate": 0.73,
+      "baseline_rate": 0.486,
+      "z_score": 1.45,
+      "flagged": 27,
+      "total": 37,
+      "avg_risk": 51.4
+    },
+    {
+      "week": "2025-12-15",
+      "rate": 0.538,
+      "baseline_rate": 0.394,
+      "z_score": 1.43,
+      "flagged": 7,
+      "total": 13,
+      "avg_risk": 45.6
+    },
+    {
+      "week": "2025-07-14",
+      "rate": 0.571,
+      "baseline_rate": 0.421,
+      "z_score": 1.33,
+      "flagged": 8,
+      "total": 14,
+      "avg_risk": 43.9
+    },
+    {
+      "week": "2025-07-07",
+      "rate": 0.5,
+      "baseline_rate": 0.386,
+      "z_score": 1.31,
+      "flagged": 4,
+      "total": 8,
+      "avg_risk": 39.9
+    },
+    {
+      "week": "2025-08-18",
+      "rate": 0.7,
+      "baseline_rate": 0.459,
+      "z_score": 1.21,
+      "flagged": 7,
+      "total": 10,
+      "avg_risk": 43.4
+    }
+  ],
+  "drift_waves_total": 8,
+  "hot_controls": [
+    {
+      "control": "Control-48",
+      "family": "Data_Protection",
+      "flagged_count": 10,
+      "avg_risk": 78.6,
+      "max_risk": 90.0,
+      "severity": "Critical",
+      "open_count": 6,
+      "span_days": 352,
+      "first_seen": "2025-04-24",
+      "last_seen": "2026-04-12"
+    },
+    {
+      "control": "Control-69",
+      "family": "Vulnerability",
+      "flagged_count": 8,
+      "avg_risk": 76.8,
+      "max_risk": 90.4,
+      "severity": "Critical",
+      "open_count": 5,
+      "span_days": 271,
+      "first_seen": "2025-07-22",
+      "last_seen": "2026-04-19"
+    },
+    {
+      "control": "Control-21",
+      "family": "Vulnerability",
+      "flagged_count": 8,
+      "avg_risk": 63.5,
+      "max_risk": 85.9,
+      "severity": "Critical",
+      "open_count": 5,
+      "span_days": 343,
+      "first_seen": "2025-04-21",
+      "last_seen": "2026-03-31"
+    },
+    {
+      "control": "Control-59",
+      "family": "Logging",
+      "flagged_count": 8,
+      "avg_risk": 62.0,
+      "max_risk": 86.6,
+      "severity": "High",
+      "open_count": 3,
+      "span_days": 173,
+      "first_seen": "2025-10-29",
+      "last_seen": "2026-04-20"
+    },
+    {
+      "control": "Control-70",
+      "family": "Encryption",
+      "flagged_count": 7,
+      "avg_risk": 79.9,
+      "max_risk": 88.2,
+      "severity": "Critical",
+      "open_count": 6,
+      "span_days": 331,
+      "first_seen": "2025-05-18",
+      "last_seen": "2026-04-15"
+    },
+    {
+      "control": "Control-82",
+      "family": "Encryption",
+      "flagged_count": 7,
+      "avg_risk": 79.1,
+      "max_risk": 91.7,
+      "severity": "Critical",
+      "open_count": 5,
+      "span_days": 317,
+      "first_seen": "2025-04-21",
+      "last_seen": "2026-03-05"
+    },
+    {
+      "control": "Control-5",
+      "family": "Network_Segmentation",
+      "flagged_count": 7,
+      "avg_risk": 73.3,
+      "max_risk": 93.9,
+      "severity": "Critical",
+      "open_count": 4,
+      "span_days": 179,
+      "first_seen": "2025-09-23",
+      "last_seen": "2026-03-22"
+    },
+    {
+      "control": "Control-30",
+      "family": "Encryption",
+      "flagged_count": 7,
+      "avg_risk": 69.6,
+      "max_risk": 87.7,
+      "severity": "Critical",
+      "open_count": 3,
+      "span_days": 284,
+      "first_seen": "2025-05-26",
+      "last_seen": "2026-03-07"
+    },
+    {
+      "control": "Control-80",
+      "family": "Access_Control",
+      "flagged_count": 7,
+      "avg_risk": 68.6,
+      "max_risk": 91.3,
+      "severity": "Critical",
+      "open_count": 5,
+      "span_days": 277,
+      "first_seen": "2025-06-27",
+      "last_seen": "2026-03-31"
+    },
+    {
+      "control": "Control-1",
+      "family": "Access_Control",
+      "flagged_count": 7,
+      "avg_risk": 67.2,
+      "max_risk": 92.0,
+      "severity": "Critical",
+      "open_count": 4,
+      "span_days": 304,
+      "first_seen": "2025-04-24",
+      "last_seen": "2026-02-23"
+    },
+    {
+      "control": "Control-67",
+      "family": "Data_Protection",
+      "flagged_count": 7,
+      "avg_risk": 67.0,
+      "max_risk": 88.6,
+      "severity": "Critical",
+      "open_count": 4,
+      "span_days": 260,
+      "first_seen": "2025-04-23",
+      "last_seen": "2026-01-08"
+    },
+    {
+      "control": "Control-39",
+      "family": "DLP",
+      "flagged_count": 7,
+      "avg_risk": 66.1,
+      "max_risk": 86.7,
+      "severity": "Critical",
+      "open_count": 3,
+      "span_days": 246,
+      "first_seen": "2025-08-17",
+      "last_seen": "2026-04-20"
+    },
+    {
+      "control": "Control-90",
+      "family": "DLP",
+      "flagged_count": 7,
+      "avg_risk": 63.3,
+      "max_risk": 87.7,
+      "severity": "Medium",
+      "open_count": 4,
+      "span_days": 294,
+      "first_seen": "2025-06-27",
+      "last_seen": "2026-04-18"
+    },
+    {
+      "control": "Control-88",
+      "family": "Logging",
+      "flagged_count": 7,
+      "avg_risk": 55.4,
+      "max_risk": 74.7,
+      "severity": "High",
+      "open_count": 3,
+      "span_days": 259,
+      "first_seen": "2025-07-28",
+      "last_seen": "2026-04-14"
+    },
+    {
+      "control": "Control-13",
+      "family": "Data_Protection",
+      "flagged_count": 6,
+      "avg_risk": 75.9,
+      "max_risk": 88.3,
+      "severity": "Critical",
+      "open_count": 5,
+      "span_days": 322,
+      "first_seen": "2025-05-21",
+      "last_seen": "2026-04-08"
+    }
+  ],
+  "hot_controls_total": 91
+}

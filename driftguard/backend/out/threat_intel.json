@@ -1,0 +1,1678 @@
+{
+  "mttr": [
+    {
+      "family": "Endpoint",
+      "avg_days": 101.0,
+      "median_days": 101.0,
+      "worst_days": 110.0,
+      "open_count": 21,
+      "resolved_count": 2
+    },
+    {
+      "family": "Access_Control",
+      "avg_days": 86.3,
+      "median_days": 34.0,
+      "worst_days": 327.0,
+      "open_count": 19,
+      "resolved_count": 28
+    },
+    {
+      "family": "Network_Segmentation",
+      "avg_days": 81.8,
+      "median_days": 56.5,
+      "worst_days": 305.0,
+      "open_count": 20,
+      "resolved_count": 22
+    },
+    {
+      "family": "Vulnerability",
+      "avg_days": 76.5,
+      "median_days": 76.5,
+      "worst_days": 98.0,
+      "open_count": 25,
+      "resolved_count": 2
+    },
+    {
+      "family": "Firewall",
+      "avg_days": 73.7,
+      "median_days": 52.0,
+      "worst_days": 237.0,
+      "open_count": 26,
+      "resolved_count": 24
+    },
+    {
+      "family": "Logging",
+      "avg_days": 72.4,
+      "median_days": 47.0,
+      "worst_days": 225.0,
+      "open_count": 27,
+      "resolved_count": 33
+    },
+    {
+      "family": "Data_Protection",
+      "avg_days": 70.3,
+      "median_days": 52.0,
+      "worst_days": 231.0,
+      "open_count": 36,
+      "resolved_count": 27
+    },
+    {
+      "family": "Encryption",
+      "avg_days": 68.3,
+      "median_days": 51.0,
+      "worst_days": 244.0,
+      "open_count": 21,
+      "resolved_count": 23
+    },
+    {
+      "family": "DLP",
+      "avg_days": 61.8,
+      "median_days": 34.0,
+      "worst_days": 226.0,
+      "open_count": 27,
+      "resolved_count": 32
+    },
+    {
+      "family": "Cloud_Security",
+      "avg_days": 38.0,
+      "median_days": 38.0,
+      "worst_days": 38.0,
+      "open_count": 21,
+      "resolved_count": 1
+    }
+  ],
+  "operator_profiles": [
+    {
+      "operator": "Arjun Becker",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 94.2,
+      "max_risk": 94.2,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 1,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Elena Chen",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 93.8,
+      "max_risk": 93.8,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 1,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Jason Robinson",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 92.9,
+      "max_risk": 92.9,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 0,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Rajesh Martinez",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 92.9,
+      "max_risk": 92.9,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 0,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "James Johnson",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 92.7,
+      "max_risk": 92.7,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 1,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Anjali Muller",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 92.0,
+      "max_risk": 92.0,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 1,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Timothy Menon",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 91.7,
+      "max_risk": 91.7,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 0,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Daniel Verma",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 91.4,
+      "max_risk": 91.4,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 0,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Steven Jones",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 91.3,
+      "max_risk": 91.3,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 1,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Neha Lewis",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 91.2,
+      "max_risk": 91.2,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 1,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Amara Jackson",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 90.8,
+      "max_risk": 90.8,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 1,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Andrew Hernandez",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 90.7,
+      "max_risk": 90.7,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 1,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Meera Wagner",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 90.7,
+      "max_risk": 90.7,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 0,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Robert Clark",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 90.6,
+      "max_risk": 90.6,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 1,
+      "risk_ratio": 1.0
+    },
+    {
+      "operator": "Aditya Thompson",
+      "total": 1,
+      "flagged": 1,
+      "avg_risk": 90.4,
+      "max_risk": 90.4,
+      "critical": 1,
+      "self_approved": 0,
+      "off_hours": 1,
+      "risk_ratio": 1.0
+    }
+  ],
+  "heatmap_cells": [
+    {
+      "dow": 0,
+      "hour": 0,
+      "count": 1,
+      "avg_risk": 86.6
+    },
+    {
+      "dow": 0,
+      "hour": 1,
+      "count": 4,
+      "avg_risk": 77.9
+    },
+    {
+      "dow": 0,
+      "hour": 2,
+      "count": 1,
+      "avg_risk": 66.8
+    },
+    {
+      "dow": 0,
+      "hour": 4,
+      "count": 1,
+      "avg_risk": 94.2
+    },
+    {
+      "dow": 0,
+      "hour": 6,
+      "count": 2,
+      "avg_risk": 61.1
+    },
+    {
+      "dow": 0,
+      "hour": 7,
+      "count": 3,
+      "avg_risk": 59.8
+    },
+    {
+      "dow": 0,
+      "hour": 8,
+      "count": 3,
+      "avg_risk": 68.0
+    },
+    {
+      "dow": 0,
+      "hour": 10,
+      "count": 27,
+      "avg_risk": 66.2
+    },
+    {
+      "dow": 0,
+      "hour": 11,
+      "count": 2,
+      "avg_risk": 63.3
+    },
+    {
+      "dow": 0,
+      "hour": 12,
+      "count": 1,
+      "avg_risk": 82.1
+    },
+    {
+      "dow": 0,
+      "hour": 13,
+      "count": 1,
+      "avg_risk": 79.7
+    },
+    {
+      "dow": 0,
+      "hour": 14,
+      "count": 1,
+      "avg_risk": 84.4
+    },
+    {
+      "dow": 0,
+      "hour": 15,
+      "count": 1,
+      "avg_risk": 51.2
+    },
+    {
+      "dow": 0,
+      "hour": 18,
+      "count": 3,
+      "avg_risk": 60.8
+    },
+    {
+      "dow": 0,
+      "hour": 19,
+      "count": 1,
+      "avg_risk": 57.0
+    },
+    {
+      "dow": 0,
+      "hour": 20,
+      "count": 2,
+      "avg_risk": 75.8
+    },
+    {
+      "dow": 0,
+      "hour": 22,
+      "count": 2,
+      "avg_risk": 59.8
+    },
+    {
+      "dow": 0,
+      "hour": 23,
+      "count": 2,
+      "avg_risk": 58.5
+    },
+    {
+      "dow": 1,
+      "hour": 1,
+      "count": 1,
+      "avg_risk": 49.8
+    },
+    {
+      "dow": 1,
+      "hour": 2,
+      "count": 1,
+      "avg_risk": 74.9
+    },
+    {
+      "dow": 1,
+      "hour": 3,
+      "count": 2,
+      "avg_risk": 73.6
+    },
+    {
+      "dow": 1,
+      "hour": 4,
+      "count": 2,
+      "avg_risk": 77.3
+    },
+    {
+      "dow": 1,
+      "hour": 5,
+      "count": 1,
+      "avg_risk": 75.7
+    },
+    {
+      "dow": 1,
+      "hour": 6,
+      "count": 2,
+      "avg_risk": 67.3
+    },
+    {
+      "dow": 1,
+      "hour": 7,
+      "count": 1,
+      "avg_risk": 80.2
+    },
+    {
+      "dow": 1,
+      "hour": 8,
+      "count": 2,
+      "avg_risk": 63.3
+    },
+    {
+      "dow": 1,
+      "hour": 10,
+      "count": 31,
+      "avg_risk": 63.6
+    },
+    {
+      "dow": 1,
+      "hour": 11,
+      "count": 2,
+      "avg_risk": 40.6
+    },
+    {
+      "dow": 1,
+      "hour": 12,
+      "count": 4,
+      "avg_risk": 55.4
+    },
+    {
+      "dow": 1,
+      "hour": 13,
+      "count": 2,
+      "avg_risk": 70.7
+    },
+    {
+      "dow": 1,
+      "hour": 14,
+      "count": 3,
+      "avg_risk": 61.4
+    },
+    {
+      "dow": 1,
+      "hour": 15,
+      "count": 2,
+      "avg_risk": 59.3
+    },
+    {
+      "dow": 1,
+      "hour": 16,
+      "count": 2,
+      "avg_risk": 58.2
+    },
+    {
+      "dow": 1,
+      "hour": 17,
+      "count": 1,
+      "avg_risk": 56.0
+    },
+    {
+      "dow": 1,
+      "hour": 18,
+      "count": 1,
+      "avg_risk": 90.3
+    },
+    {
+      "dow": 1,
+      "hour": 19,
+      "count": 1,
+      "avg_risk": 78.9
+    },
+    {
+      "dow": 1,
+      "hour": 20,
+      "count": 1,
+      "avg_risk": 78.1
+    },
+    {
+      "dow": 1,
+      "hour": 21,
+      "count": 1,
+      "avg_risk": 65.6
+    },
+    {
+      "dow": 1,
+      "hour": 22,
+      "count": 1,
+      "avg_risk": 90.4
+    },
+    {
+      "dow": 1,
+      "hour": 23,
+      "count": 1,
+      "avg_risk": 82.4
+    },
+    {
+      "dow": 2,
+      "hour": 0,
+      "count": 2,
+      "avg_risk": 62.2
+    },
+    {
+      "dow": 2,
+      "hour": 2,
+      "count": 2,
+      "avg_risk": 64.4
+    },
+    {
+      "dow": 2,
+      "hour": 3,
+      "count": 2,
+      "avg_risk": 82.3
+    },
+    {
+      "dow": 2,
+      "hour": 4,
+      "count": 1,
+      "avg_risk": 57.3
+    },
+    {
+      "dow": 2,
+      "hour": 5,
+      "count": 1,
+      "avg_risk": 85.2
+    },
+    {
+      "dow": 2,
+      "hour": 8,
+      "count": 3,
+      "avg_risk": 62.2
+    },
+    {
+      "dow": 2,
+      "hour": 10,
+      "count": 29,
+      "avg_risk": 69.5
+    },
+    {
+      "dow": 2,
+      "hour": 11,
+      "count": 2,
+      "avg_risk": 83.2
+    },
+    {
+      "dow": 2,
+      "hour": 12,
+      "count": 1,
+      "avg_risk": 86.9
+    },
+    {
+      "dow": 2,
+      "hour": 13,
+      "count": 2,
+      "avg_risk": 81.7
+    },
+    {
+      "dow": 2,
+      "hour": 14,
+      "count": 2,
+      "avg_risk": 47.8
+    },
+    {
+      "dow": 2,
+      "hour": 15,
+      "count": 1,
+      "avg_risk": 79.7
+    },
+    {
+      "dow": 2,
+      "hour": 18,
+      "count": 2,
+      "avg_risk": 84.7
+    },
+    {
+      "dow": 2,
+      "hour": 19,
+      "count": 2,
+      "avg_risk": 81.7
+    },
+    {
+      "dow": 2,
+      "hour": 20,
+      "count": 1,
+      "avg_risk": 55.6
+    },
+    {
+      "dow": 2,
+      "hour": 22,
+      "count": 1,
+      "avg_risk": 54.5
+    },
+    {
+      "dow": 2,
+      "hour": 23,
+      "count": 2,
+      "avg_risk": 87.6
+    },
+    {
+      "dow": 3,
+      "hour": 1,
+      "count": 1,
+      "avg_risk": 89.0
+    },
+    {
+      "dow": 3,
+      "hour": 2,
+      "count": 1,
+      "avg_risk": 88.2
+    },
+    {
+      "dow": 3,
+      "hour": 3,
+      "count": 2,
+      "avg_risk": 70.2
+    },
+    {
+      "dow": 3,
+      "hour": 4,
+      "count": 1,
+      "avg_risk": 50.5
+    },
+    {
+      "dow": 3,
+      "hour": 5,
+      "count": 4,
+      "avg_risk": 64.2
+    },
+    {
+      "dow": 3,
+      "hour": 6,
+      "count": 1,
+      "avg_risk": 59.0
+    },
+    {
+      "dow": 3,
+      "hour": 7,
+      "count": 1,
+      "avg_risk": 85.0
+    },
+    {
+      "dow": 3,
+      "hour": 9,
+      "count": 2,
+      "avg_risk": 65.7
+    },
+    {
+      "dow": 3,
+      "hour": 10,
+      "count": 41,
+      "avg_risk": 64.6
+    },
+    {
+      "dow": 3,
+      "hour": 11,
+      "count": 2,
+      "avg_risk": 56.9
+    },
+    {
+      "dow": 3,
+      "hour": 12,
+      "count": 1,
+      "avg_risk": 87.2
+    },
+    {
+      "dow": 3,
+      "hour": 13,
+      "count": 1,
+      "avg_risk": 87.3
+    },
+    {
+      "dow": 3,
+      "hour": 14,
+      "count": 1,
+      "avg_risk": 60.2
+    },
+    {
+      "dow": 3,
+      "hour": 17,
+      "count": 1,
+      "avg_risk": 71.1
+    },
+    {
+      "dow": 3,
+      "hour": 18,
+      "count": 1,
+      "avg_risk": 40.2
+    },
+    {
+      "dow": 3,
+      "hour": 19,
+      "count": 1,
+      "avg_risk": 86.4
+    },
+    {
+      "dow": 3,
+      "hour": 21,
+      "count": 1,
+      "avg_risk": 41.7
+    },
+    {
+      "dow": 3,
+      "hour": 22,
+      "count": 2,
+      "avg_risk": 69.2
+    },
+    {
+      "dow": 3,
+      "hour": 23,
+      "count": 1,
+      "avg_risk": 90.4
+    },
+    {
+      "dow": 4,
+      "hour": 0,
+      "count": 2,
+      "avg_risk": 81.2
+    },
+    {
+      "dow": 4,
+      "hour": 1,
+      "count": 1,
+      "avg_risk": 91.3
+    },
+    {
+      "dow": 4,
+      "hour": 3,
+      "count": 1,
+      "avg_risk": 45.8
+    },
+    {
+      "dow": 4,
+      "hour": 5,
+      "count": 4,
+      "avg_risk": 85.5
+    },
+    {
+      "dow": 4,
+      "hour": 9,
+      "count": 2,
+      "avg_risk": 47.5
+    },
+    {
+      "dow": 4,
+      "hour": 10,
+      "count": 29,
+      "avg_risk": 67.6
+    },
+    {
+      "dow": 4,
+      "hour": 11,
+      "count": 3,
+      "avg_risk": 51.2
+    },
+    {
+      "dow": 4,
+      "hour": 12,
+      "count": 1,
+      "avg_risk": 60.6
+    },
+    {
+      "dow": 4,
+      "hour": 13,
+      "count": 1,
+      "avg_risk": 65.4
+    },
+    {
+      "dow": 4,
+      "hour": 14,
+      "count": 2,
+      "avg_risk": 87.3
+    },
+    {
+      "dow": 4,
+      "hour": 15,
+      "count": 3,
+      "avg_risk": 81.0
+    },
+    {
+      "dow": 4,
+      "hour": 17,
+      "count": 2,
+      "avg_risk": 66.5
+    },
+    {
+      "dow": 4,
+      "hour": 19,
+      "count": 1,
+      "avg_risk": 84.3
+    },
+    {
+      "dow": 4,
+      "hour": 20,
+      "count": 3,
+      "avg_risk": 62.1
+    },
+    {
+      "dow": 4,
+      "hour": 21,
+      "count": 2,
+      "avg_risk": 68.2
+    },
+    {
+      "dow": 4,
+      "hour": 22,
+      "count": 2,
+      "avg_risk": 78.3
+    },
+    {
+      "dow": 4,
+      "hour": 23,
+      "count": 1,
+      "avg_risk": 86.5
+    },
+    {
+      "dow": 5,
+      "hour": 0,
+      "count": 2,
+      "avg_risk": 70.8
+    },
+    {
+      "dow": 5,
+      "hour": 1,
+      "count": 1,
+      "avg_risk": 56.9
+    },
+    {
+      "dow": 5,
+      "hour": 2,
+      "count": 2,
+      "avg_risk": 86.4
+    },
+    {
+      "dow": 5,
+      "hour": 3,
+      "count": 1,
+      "avg_risk": 90.0
+    },
+    {
+      "dow": 5,
+      "hour": 4,
+      "count": 1,
+      "avg_risk": 93.8
+    },
+    {
+      "dow": 5,
+      "hour": 5,
+      "count": 2,
+      "avg_risk": 77.8
+    },
+    {
+      "dow": 5,
+      "hour": 6,
+      "count": 1,
+      "avg_risk": 56.0
+    },
+    {
+      "dow": 5,
+      "hour": 7,
+      "count": 2,
+      "avg_risk": 69.8
+    },
+    {
+      "dow": 5,
+      "hour": 9,
+      "count": 1,
+      "avg_risk": 78.0
+    },
+    {
+      "dow": 5,
+      "hour": 10,
+      "count": 38,
+      "avg_risk": 73.2
+    },
+    {
+      "dow": 5,
+      "hour": 12,
+      "count": 1,
+      "avg_risk": 63.6
+    },
+    {
+      "dow": 5,
+      "hour": 13,
+      "count": 2,
+      "avg_risk": 65.2
+    },
+    {
+      "dow": 5,
+      "hour": 15,
+      "count": 1,
+      "avg_risk": 57.9
+    },
+    {
+      "dow": 5,
+      "hour": 17,
+      "count": 2,
+      "avg_risk": 60.5
+    },
+    {
+      "dow": 5,
+      "hour": 18,
+      "count": 3,
+      "avg_risk": 78.1
+    },
+    {
+      "dow": 5,
+      "hour": 19,
+      "count": 2,
+      "avg_risk": 58.4
+    },
+    {
+      "dow": 5,
+      "hour": 20,
+      "count": 1,
+      "avg_risk": 62.7
+    },
+    {
+      "dow": 5,
+      "hour": 22,
+      "count": 1,
+      "avg_risk": 92.7
+    },
+    {
+      "dow": 5,
+      "hour": 23,
+      "count": 4,
+      "avg_risk": 72.4
+    },
+    {
+      "dow": 6,
+      "hour": 1,
+      "count": 2,
+      "avg_risk": 85.0
+    },
+    {
+      "dow": 6,
+      "hour": 2,
+      "count": 1,
+      "avg_risk": 62.1
+    },
+    {
+      "dow": 6,
+      "hour": 3,
+      "count": 2,
+      "avg_risk": 62.6
+    },
+    {
+      "dow": 6,
+      "hour": 4,
+      "count": 4,
+      "avg_risk": 76.3
+    },
+    {
+      "dow": 6,
+      "hour": 5,
+      "count": 1,
+      "avg_risk": 49.2
+    },
+    {
+      "dow": 6,
+      "hour": 8,
+      "count": 2,
+      "avg_risk": 68.2
+    },
+    {
+      "dow": 6,
+      "hour": 9,
+      "count": 2,
+      "avg_risk": 89.3
+    },
+    {
+      "dow": 6,
+      "hour": 10,
+      "count": 30,
+      "avg_risk": 69.7
+    },
+    {
+      "dow": 6,
+      "hour": 11,
+      "count": 1,
+      "avg_risk": 87.9
+    },
+    {
+      "dow": 6,
+      "hour": 12,
+      "count": 5,
+      "avg_risk": 66.6
+    },
+    {
+      "dow": 6,
+      "hour": 13,
+      "count": 3,
+      "avg_risk": 65.6
+    },
+    {
+      "dow": 6,
+      "hour": 14,
+      "count": 1,
+      "avg_risk": 87.8
+    },
+    {
+      "dow": 6,
+      "hour": 15,
+      "count": 3,
+      "avg_risk": 55.2
+    },
+    {
+      "dow": 6,
+      "hour": 18,
+      "count": 2,
+      "avg_risk": 88.3
+    },
+    {
+      "dow": 6,
+      "hour": 20,
+      "count": 2,
+      "avg_risk": 76.3
+    },
+    {
+      "dow": 6,
+      "hour": 21,
+      "count": 2,
+      "avg_risk": 59.9
+    },
+    {
+      "dow": 6,
+      "hour": 22,
+      "count": 1,
+      "avg_risk": 57.2
+    }
+  ],
+  "drift_velocity": [
+    {
+      "week": "2025-04-14",
+      "rate": 0.0,
+      "rolling": 0.0,
+      "total": 2,
+      "flagged": 0,
+      "avg_risk": 4.8
+    },
+    {
+      "week": "2025-04-21",
+      "rate": 0.611,
+      "rolling": 0.306,
+      "total": 18,
+      "flagged": 11,
+      "avg_risk": 47.8
+    },
+    {
+      "week": "2025-04-28",
+      "rate": 0.615,
+      "rolling": 0.409,
+      "total": 13,
+      "flagged": 8,
+      "avg_risk": 51.2
+    },
+    {
+      "week": "2025-05-05",
+      "rate": 0.182,
+      "rolling": 0.352,
+      "total": 11,
+      "flagged": 2,
+      "avg_risk": 27.0
+    },
+    {
+      "week": "2025-05-12",
+      "rate": 0.278,
+      "rolling": 0.422,
+      "total": 18,
+      "flagged": 5,
+      "avg_risk": 31.3
+    },
+    {
+      "week": "2025-05-19",
+      "rate": 0.375,
+      "rolling": 0.362,
+      "total": 8,
+      "flagged": 3,
+      "avg_risk": 38.1
+    },
+    {
+      "week": "2025-05-26",
+      "rate": 0.5,
+      "rolling": 0.334,
+      "total": 6,
+      "flagged": 3,
+      "avg_risk": 34.3
+    },
+    {
+      "week": "2025-06-02",
+      "rate": 0.357,
+      "rolling": 0.378,
+      "total": 14,
+      "flagged": 5,
+      "avg_risk": 35.1
+    },
+    {
+      "week": "2025-06-09",
+      "rate": 0.273,
+      "rolling": 0.376,
+      "total": 11,
+      "flagged": 3,
+      "avg_risk": 26.8
+    },
+    {
+      "week": "2025-06-16",
+      "rate": 0.455,
+      "rolling": 0.396,
+      "total": 11,
+      "flagged": 5,
+      "avg_risk": 42.4
+    },
+    {
+      "week": "2025-06-23",
+      "rate": 0.312,
+      "rolling": 0.349,
+      "total": 16,
+      "flagged": 5,
+      "avg_risk": 37.0
+    },
+    {
+      "week": "2025-06-30",
+      "rate": 0.417,
+      "rolling": 0.364,
+      "total": 12,
+      "flagged": 5,
+      "avg_risk": 40.0
+    },
+    {
+      "week": "2025-07-07",
+      "rate": 0.5,
+      "rolling": 0.421,
+      "total": 8,
+      "flagged": 4,
+      "avg_risk": 39.9
+    },
+    {
+      "week": "2025-07-14",
+      "rate": 0.571,
+      "rolling": 0.45,
+      "total": 14,
+      "flagged": 8,
+      "avg_risk": 43.9
+    },
+    {
+      "week": "2025-07-21",
+      "rate": 0.231,
+      "rolling": 0.43,
+      "total": 13,
+      "flagged": 3,
+      "avg_risk": 22.0
+    },
+    {
+      "week": "2025-07-28",
+      "rate": 0.471,
+      "rolling": 0.443,
+      "total": 17,
+      "flagged": 8,
+      "avg_risk": 38.5
+    },
+    {
+      "week": "2025-08-04",
+      "rate": 0.211,
+      "rolling": 0.371,
+      "total": 19,
+      "flagged": 4,
+      "avg_risk": 25.1
+    },
+    {
+      "week": "2025-08-11",
+      "rate": 0.571,
+      "rolling": 0.371,
+      "total": 14,
+      "flagged": 8,
+      "avg_risk": 45.4
+    },
+    {
+      "week": "2025-08-18",
+      "rate": 0.7,
+      "rolling": 0.488,
+      "total": 10,
+      "flagged": 7,
+      "avg_risk": 43.4
+    },
+    {
+      "week": "2025-08-25",
+      "rate": 0.611,
+      "rolling": 0.523,
+      "total": 18,
+      "flagged": 11,
+      "avg_risk": 49.5
+    },
+    {
+      "week": "2025-09-01",
+      "rate": 0.455,
+      "rolling": 0.584,
+      "total": 11,
+      "flagged": 5,
+      "avg_risk": 46.3
+    },
+    {
+      "week": "2025-09-08",
+      "rate": 0.444,
+      "rolling": 0.552,
+      "total": 18,
+      "flagged": 8,
+      "avg_risk": 35.0
+    },
+    {
+      "week": "2025-09-15",
+      "rate": 0.556,
+      "rolling": 0.516,
+      "total": 9,
+      "flagged": 5,
+      "avg_risk": 44.2
+    },
+    {
+      "week": "2025-09-22",
+      "rate": 0.615,
+      "rolling": 0.518,
+      "total": 13,
+      "flagged": 8,
+      "avg_risk": 43.2
+    },
+    {
+      "week": "2025-09-29",
+      "rate": 0.455,
+      "rolling": 0.518,
+      "total": 11,
+      "flagged": 5,
+      "avg_risk": 35.2
+    },
+    {
+      "week": "2025-10-06",
+      "rate": 0.308,
+      "rolling": 0.484,
+      "total": 13,
+      "flagged": 4,
+      "avg_risk": 33.6
+    },
+    {
+      "week": "2025-10-13",
+      "rate": 0.143,
+      "rolling": 0.38,
+      "total": 7,
+      "flagged": 1,
+      "avg_risk": 16.8
+    },
+    {
+      "week": "2025-10-20",
+      "rate": 0.5,
+      "rolling": 0.352,
+      "total": 14,
+      "flagged": 7,
+      "avg_risk": 35.4
+    },
+    {
+      "week": "2025-10-27",
+      "rate": 0.625,
+      "rolling": 0.394,
+      "total": 8,
+      "flagged": 5,
+      "avg_risk": 48.8
+    },
+    {
+      "week": "2025-11-03",
+      "rate": 0.636,
+      "rolling": 0.476,
+      "total": 11,
+      "flagged": 7,
+      "avg_risk": 47.2
+    },
+    {
+      "week": "2025-11-10",
+      "rate": 0.333,
+      "rolling": 0.524,
+      "total": 15,
+      "flagged": 5,
+      "avg_risk": 39.3
+    },
+    {
+      "week": "2025-11-17",
+      "rate": 0.333,
+      "rolling": 0.482,
+      "total": 12,
+      "flagged": 4,
+      "avg_risk": 33.2
+    },
+    {
+      "week": "2025-11-24",
+      "rate": 0.267,
+      "rolling": 0.392,
+      "total": 15,
+      "flagged": 4,
+      "avg_risk": 29.0
+    },
+    {
+      "week": "2025-12-01",
+      "rate": 0.474,
+      "rolling": 0.352,
+      "total": 19,
+      "flagged": 9,
+      "avg_risk": 35.3
+    },
+    {
+      "week": "2025-12-08",
+      "rate": 0.417,
+      "rolling": 0.373,
+      "total": 12,
+      "flagged": 5,
+      "avg_risk": 39.6
+    },
+    {
+      "week": "2025-12-15",
+      "rate": 0.538,
+      "rolling": 0.424,
+      "total": 13,
+      "flagged": 7,
+      "avg_risk": 45.6
+    },
+    {
+      "week": "2025-12-22",
+      "rate": 0.357,
+      "rolling": 0.446,
+      "total": 14,
+      "flagged": 5,
+      "avg_risk": 32.7
+    },
+    {
+      "week": "2025-12-29",
+      "rate": 0.692,
+      "rolling": 0.501,
+      "total": 13,
+      "flagged": 9,
+      "avg_risk": 50.4
+    },
+    {
+      "week": "2026-01-05",
+      "rate": 0.4,
+      "rolling": 0.497,
+      "total": 10,
+      "flagged": 4,
+      "avg_risk": 36.7
+    },
+    {
+      "week": "2026-01-12",
+      "rate": 0.667,
+      "rolling": 0.529,
+      "total": 9,
+      "flagged": 6,
+      "avg_risk": 47.4
+    },
+    {
+      "week": "2026-01-19",
+      "rate": 0.481,
+      "rolling": 0.56,
+      "total": 27,
+      "flagged": 13,
+      "avg_risk": 34.5
+    },
+    {
+      "week": "2026-01-26",
+      "rate": 0.459,
+      "rolling": 0.502,
+      "total": 37,
+      "flagged": 17,
+      "avg_risk": 35.5
+    },
+    {
+      "week": "2026-02-02",
+      "rate": 0.289,
+      "rolling": 0.474,
+      "total": 45,
+      "flagged": 13,
+      "avg_risk": 27.5
+    },
+    {
+      "week": "2026-02-09",
+      "rate": 0.481,
+      "rolling": 0.428,
+      "total": 27,
+      "flagged": 13,
+      "avg_risk": 35.8
+    },
+    {
+      "week": "2026-02-16",
+      "rate": 0.333,
+      "rolling": 0.39,
+      "total": 45,
+      "flagged": 15,
+      "avg_risk": 31.2
+    },
+    {
+      "week": "2026-02-23",
+      "rate": 0.625,
+      "rolling": 0.432,
+      "total": 32,
+      "flagged": 20,
+      "avg_risk": 44.0
+    },
+    {
+      "week": "2026-03-02",
+      "rate": 0.73,
+      "rolling": 0.542,
+      "total": 37,
+      "flagged": 27,
+      "avg_risk": 51.4
+    },
+    {
+      "week": "2026-03-09",
+      "rate": 0.621,
+      "rolling": 0.577,
+      "total": 29,
+      "flagged": 18,
+      "avg_risk": 44.9
+    },
+    {
+      "week": "2026-03-16",
+      "rate": 0.321,
+      "rolling": 0.574,
+      "total": 28,
+      "flagged": 9,
+      "avg_risk": 29.8
+    },
+    {
+      "week": "2026-03-23",
+      "rate": 0.238,
+      "rolling": 0.478,
+      "total": 42,
+      "flagged": 10,
+      "avg_risk": 21.7
+    },
+    {
+      "week": "2026-03-30",
+      "rate": 0.415,
+      "rolling": 0.399,
+      "total": 53,
+      "flagged": 22,
+      "avg_risk": 35.6
+    },
+    {
+      "week": "2026-04-06",
+      "rate": 0.378,
+      "rolling": 0.338,
+      "total": 45,
+      "flagged": 17,
+      "avg_risk": 36.3
+    },
+    {
+      "week": "2026-04-13",
+      "rate": 0.4,
+      "rolling": 0.358,
+      "total": 50,
+      "flagged": 20,
+      "avg_risk": 37.2
+    },
+    {
+      "week": "2026-04-20",
+      "rate": 0.667,
+      "rolling": 0.465,
+      "total": 3,
+      "flagged": 2,
+      "avg_risk": 52.7
+    }
+  ],
+  "drift_trend": "worsening",
+  "top_exposures": [
+    {
+      "id": "DRF00847",
+      "control": "Control-9",
+      "family": "Endpoint",
+      "days": 361.0,
+      "open": true,
+      "severity": "Low",
+      "risk": 23.3,
+      "reason": "Troubleshooting"
+    },
+    {
+      "id": "DRF00806",
+      "control": "Control-60",
+      "family": "Cloud_Security",
+      "days": 351.0,
+      "open": true,
+      "severity": "Medium",
+      "risk": 47.0,
+      "reason": "Troubleshooting"
+    },
+    {
+      "id": "DRF00561",
+      "control": "Control-55",
+      "family": "Access_Control",
+      "days": 327.0,
+      "open": false,
+      "severity": "High",
+      "risk": 58.6,
+      "reason": "Troubleshooting"
+    },
+    {
+      "id": "DRF00713",
+      "control": "Control-26",
+      "family": "Endpoint",
+      "days": 315.0,
+      "open": true,
+      "severity": "Critical",
+      "risk": 92.9,
+      "reason": "Security Update"
+    },
+    {
+      "id": "DRF00699",
+      "control": "Control-98",
+      "family": "Access_Control",
+      "days": 313.0,
+      "open": false,
+      "severity": "High",
+      "risk": 61.5,
+      "reason": "Security Update"
+    },
+    {
+      "id": "DRF00823",
+      "control": "Control-43",
+      "family": "Network_Segmentation",
+      "days": 305.0,
+      "open": true,
+      "severity": "Critical",
+      "risk": 79.8,
+      "reason": "Policy Change"
+    },
+    {
+      "id": "DRF00531",
+      "control": "Control-43",
+      "family": "Vulnerability",
+      "days": 291.0,
+      "open": true,
+      "severity": "Medium",
+      "risk": 42.8,
+      "reason": "Troubleshooting"
+    },
+    {
+      "id": "DRF00581",
+      "control": "Control-1",
+      "family": "Access_Control",
+      "days": 289.0,
+      "open": false,
+      "severity": "High",
+      "risk": 58.6,
+      "reason": "Troubleshooting"
+    },
+    {
+      "id": "DRF00676",
+      "control": "Control-57",
+      "family": "Access_Control",
+      "days": 288.0,
+      "open": false,
+      "severity": "Critical",
+      "risk": 75.5,
+      "reason": "Performance Tuning"
+    },
+    {
+      "id": "DRF00708",
+      "control": "Control-57",
+      "family": "Data_Protection",
+      "days": 281.0,
+      "open": false,
+      "severity": "Critical",
+      "risk": 94.2,
+      "reason": "Troubleshooting"
+    }
+  ],
+  "change_reason": [
+    {
+      "reason": "Troubleshooting",
+      "total": 196,
+      "flagged": 106,
+      "avg_risk": 43.4,
+      "critical": 47,
+      "flag_rate": 0.541
+    },
+    {
+      "reason": "Emergency Fix",
+      "total": 199,
+      "flagged": 106,
+      "avg_risk": 43.0,
+      "critical": 52,
+      "flag_rate": 0.533
+    },
+    {
+      "reason": "Performance Tuning",
+      "total": 193,
+      "flagged": 63,
+      "avg_risk": 34.2,
+      "critical": 35,
+      "flag_rate": 0.326
+    },
+    {
+      "reason": "Security Update",
+      "total": 207,
+      "flagged": 90,
+      "avg_risk": 33.8,
+      "critical": 41,
+      "flag_rate": 0.435
+    },
+    {
+      "reason": "Policy Change",
+      "total": 205,
+      "flagged": 72,
+      "avg_risk": 30.1,
+      "critical": 28,
+      "flag_rate": 0.351
+    }
+  ],
+  "compliance_gaps": [
+    {
+      "framework": "NIST",
+      "open": 210,
+      "resolved": 250,
+      "total": 460,
+      "gap_pct": 45.7,
+      "refs": [
+        "AC-2 / IA-2 (Account & Auth)",
+        "AU-2 (Audit Events)",
+        "CM-2 (Baseline Config)",
+        "CM-2 (Baseline Configuration)",
+        "MP-4 (Media Protection)"
+      ]
+    },
+    {
+      "framework": "CIS",
+      "open": 45,
+      "resolved": 56,
+      "total": 101,
+      "gap_pct": 44.6,
+      "refs": [
+        "CIS 10 (Malware Defense)",
+        "CIS 12 (Network Infra)",
+        "CIS 3 (Data Protection)",
+        "CIS 3.11 (Encrypt Data)",
+        "CIS 3.13 (DLP)"
+      ]
+    },
+    {
+      "framework": "ISO 27001",
+      "open": 44,
+      "resolved": 33,
+      "total": 77,
+      "gap_pct": 57.1,
+      "refs": [
+        "A.10 (Cryptography)",
+        "A.12 (Operations)",
+        "A.12.2 (Malware)",
+        "A.12.4 (Logging)",
+        "A.12.6 (Vuln Mgmt)"
+      ]
+    },
+    {
+      "framework": "GDPR",
+      "open": 42,
+      "resolved": 24,
+      "total": 66,
+      "gap_pct": 63.6,
+      "refs": [
+        "Art. 25 (Data Protection by Design)",
+        "Art. 28 (Processors)",
+        "Art. 30 (Records)",
+        "Art. 32",
+        "Art. 32 (Security of Processing)"
+      ]
+    },
+    {
+      "framework": "PCI-DSS",
+      "open": 37,
+      "resolved": 26,
+      "total": 63,
+      "gap_pct": 58.7,
+      "refs": [
+        "Req. 1 (Firewall Config)",
+        "Req. 1.3 (Segmentation)",
+        "Req. 10 (Logging)",
+        "Req. 11 (Test Security)",
+        "Req. 2 (Secure Config)"
+      ]
+    }
+  ]
+}
